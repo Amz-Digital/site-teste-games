@@ -35,8 +35,8 @@ function teste2()
   else
   {
     //fala que é nada
-    console.log("nada");
+    // console.log("nada");
     alterarImagem('logoo', 'images/logos/logo_amazonia_white.png');
-    alterarCor("rgb(221, 221, 221)");
+    alterarCor("white");
   }
 }

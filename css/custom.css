@@ -1,13 +1,23 @@
 body {
   background-color: #2b2b2b;
 }
+ul, ul li{
+  margin: 0px; padding: 0px;
+}
 .header nav.navbar.white-link .navbar-nav > li > a, nav.navbar.bootsnav.white-link ul.nav > li > a, header nav.navbar.white-link .header-social-icon a, nav.navbar.bootsnav.white-link .header-social-icon a, header nav.navbar.white-link .header-searchbar a, nav.navbar.bootsnav.white-link .header-searchbar a, header nav.navbar.bootsnav ul.nav.white-link > li > a, nav.navbar.white-link .heder-menu-button a {
   color: rgb(121, 192, 0);
   font-size: 1.5rem;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .trocaCorHeader a{
   color: rgb(255, 255, 255) !important;
+}
+.white-move .swiper-slide {
+  cursor:auto;
+}
+.swiper-wrapper h6{
+  font-size: 2rem
 }
 
 
@@ -47,9 +57,11 @@ section#about h3 {
   flex-wrap: nowrap;
   font-size: 3.3rem;
   margin-bottom: 50px;
-  text-align: right;
+  text-align: end;
   color: #ffffff;
-  font-weight: 800;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-family: 'Montserrat', sans-serif;
 }
 .quadro2 p {
   text-align: justify;
@@ -68,14 +80,14 @@ body{
     height: 90vh;
 }
 .quadro3 {
-  padding-top:0px;
+  padding-top:-100px !important;
 }
 .quadro3 .titulo {
   color: #f0f0f0;
   font-size: 3.3rem;
   padding-top: 50px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
 .quadro3 .subtitulo {
   margin-top:30px;
@@ -108,11 +120,16 @@ body{
   padding-top: 0px !important;
   background-color: white;
 }
+.quadro4 h5{
+  font-size: 3.3rem;
+}
 section {
   padding-top: 0px;
 }
 .quadro5 .box-esq h3 {
+  font-family: 'Montserrat', sans-serif;
   font-size: 3.3rem;
+  font-weight: 700;
   margin-bottom: 50px;
   text-align: left;
 }
@@ -174,18 +191,20 @@ font-weight: 300;
 .solucao p {
   text-align: justify;
   font-size: 1.5rem;
-  color: rgb(226, 226, 226);
+  color: rgb(37, 37, 37);
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
 .solucao h4 {
   font-family: 'Montserrat', sans-serif;
   text-align: right;
+  font-weight: 700;
   font-size: 3.3rem;
-  color: white;
+  line-height: 60px;
+  color: rgb(37, 37, 37);
 }
 .solucao li {
-  color: rgb(226, 226, 226) !important;
+  color: rgb(37, 37, 37) !important;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.3rem;
   font-weight: 300;
@@ -224,7 +243,24 @@ font-weight: 300;
   color: #6F6F6F;
   font-size: 1.2rem;
   margin: 0px;
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
+}
+.lei h5{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem !important;
+  text-transform: uppercase;
+  color: white;
+}
+.box-info{
+  padding: 10px 40px 10px 40px;
+}
+.info1{
+  width: 300px !important;
+  text-align: justify;
+}
+.info1 span{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
 }
 footer {
   padding: 0 50px 0px 50px;
@@ -291,7 +327,7 @@ footer{margin-top: 100px;}
 .cabecalho{
   text-align: center;
   justify-content: center;
-  color: blue;
+  color: rgb(119, 119, 119);
   
 }
 #letra5, #letra6, #letra7{

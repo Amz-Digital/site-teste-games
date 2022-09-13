@@ -10,13 +10,13 @@
         <!-- End Google Tag Manager -->
 
         <!-- title -->
-        <title>Amazonia Studio</title>
+        <title>Amazonia Games</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
         <meta name="author" content="ThemeZaa">
         <!-- description -->
-        <meta name="description" content="Amazonia Studio produz produtos, conteudo e soluções inovadoras para area digital. Conheça nossos produtos. ">
+        <meta name="description" content="Amazonia Studio produz produtos, conteúdo e soluções inovadoras para área digital. Conheça nossos produtos. ">
         <!-- keywords -->
         <meta name="keywords" content="">
         <!-- favicon -->
@@ -59,13 +59,54 @@
 
         <link rel="stylesheet" href="css/custom.css">
         <link rel="stylesheet" href="css/particulas.css">
+        <link rel="stylesheet" href="css/slider.css">
+        <link rel="stylesheet" href="https://flowbite.com/docs/flowbite.css?v=1.5.3a">
+        <script src="js/popScroll.js"></script>
+        <script src="js/popup1.js"></script>
+        <script src="js/popup2.js"></script>
+
     </head>
-    <body>
+    <body onload="mostrarPopUp();disableScroll();">
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TS56P7J"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
         <!-- start header -->
+        <!-- Modal toggle -->
+        <button type="button" data-modal-toggle="defaultModal" id="botaoPop" hidden>
+        </button>
+        <!-- Main modal -->
+        <div id="defaultModal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full justify-center items-center">
+            <div class="relative p-4 w-full h-full md:h-auto" style="max-width:500px;">
+                <!-- Modal content -->
+                <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                    <!-- Modal header -->
+                    <div class="flex justify-between items-start p-4 rounded-t border-b dark:border-gray-600">
+                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+                            Age Verification
+                        </h3>
+                        <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-toggle="defaultModal" onclick="encaminharSite()">
+                            <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                            <span class="sr-only" >Fechar Popup</span>
+                        </button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="p-6 space-y-6">
+                        <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                        You must be 18 to view and use this website
+                        </p>
+                        <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                        We care about what we deliver; and, we take responsibility for it.
+                        </p>
+                    </div>
+                    <!-- Modal footer -->
+                    <div class="flex items-center p-6 space-x-2 rounded-b border-t border-gray-200 dark:border-gray-600">
+                        <button data-modal-toggle="defaultModal" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onclick="enableScroll()" style="background-color: #79C000;">I'M OVER 18</button>
+                        <button data-modal-toggle="defaultModal" type="button" class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600" onclick="encaminharSite()">I'M UNDER 18</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <header id="coisa">
             <!-- start navigation -->
             <nav class="navbar navbar-default bootsnav navbar-fixed-top header-dark background-transparent nav-box-width white-link navbar-expand-lg menu-center border-white-light">
@@ -105,7 +146,8 @@
                                 </li>
                                 
                                 <li class="dropdown megamenu-fw">
-                                    <a href="#contact" id="letra4">Contact</a><i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>                                    
+                                    <a href="#contact" id="letra4">Contact</a><i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>      
+                                    <div class="linha_baixo"></div>                              
                                 </li>
                                 
                             </ul>
@@ -122,13 +164,29 @@
             </nav>
             <!-- end navigation --> 
         </header>
+        
         <!-- end header -->
         <!-- start slider section -->
         <section class="p-0 main-slider h-100 position-relative overflow-visible mobile-height wow fadeIn">
             <div class="swiper-full-screen swiper-container h-100 w-100 white-move">
                 <div class="swiper-wrapper">
                     <!-- start slider item -->
-                    <div class="swiper-slide cover-background" style="background-image:url('images/banner/mamphis3.png');">
+                    <!-- primeira imagem -->
+                    <div class="swiper-slide cover-background" style="background-image:url('images/slides/slide77.png'); height:750px;">
+                        <div class="container position-relative full-screen">
+                            <div class="slider-typography text-center">
+                                <div class="slider-text-middle-main">
+                                    <div class="slider-text-middle">
+                                        <div class="alt-font text-white-2 font-weight-700 title-large margin-two-bottom mx-auto lg-width-80 md-margin-four-bottom sm-width-90 sm-margin-15px-bottom sm-letter-spacing-0 ">Amazonia Games</div>
+                                        <h6 class="text-white-2 opacity6 padding-ten-lr font-weight-300 margin-four-bottom md-margin-four-bottom sm-margin-20px-bottom">We provide Video Bingo and Slots games worldwide</h6>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- segunda imagem -->
+                    <div class="swiper-slide cover-background" style="background-image:url('images/slides/slide88.png'); height: 750px;">
                         <div class="container position-relative full-screen">
                             <div class="slider-typography text-center">
                                 <div class="slider-text-middle-main">
@@ -162,7 +220,7 @@
                         <img src="images/banner/business-about.png" alt="" class="w-100 globo">
                     </div>
                     <div class="col-12 col-lg-6 col-md-6 padding-six-lr lg-padding-15px-lr text-center text-md-left wow fadeIn" data-wow-delay="0.2s">
-                        <h3>Global actuation with selected products and localized aproach</h3>
+                        <h3>Global actuation<br> with selected products and localized aproach</h3>
                         <p>Nossos jogos e sistemas são customizados para os mercados de acordo com o nicho de produto  e de cada pais ou região</p>
                         <!-- <a href="#contact" class="btn btn-small btn-rounded btn-black margin-20px-top sm-margin-5px-top">Contato</a> -->
                     </div>
@@ -176,11 +234,11 @@
 
         
 
-        <div class="wave">
+        <!-- <div class="wave">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                 <path fill="rgb(43, 43, 43)" fill-opacity="10" d="M0,288L80,266.7C160,245,320,203,480,208C640,213,800,267,960,277.3C1120,288,1280,256,1360,240L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
               </svg>
-          </div>
+          </div> -->
  
         <section class="wow fadeIn cover-background quadro3">
            <!-- particles.js container --> 
@@ -232,6 +290,7 @@
         <!-- end feature section -->
         <!-- start portfolio section -->
         
+
         <section id="products" class="wow fadeIn no-padding-bottom quadro4">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="margin-top:-50px">
                 <path fill="#2b2b2b" fill-opacity="1" d="M0,96L60,90.7C120,85,240,75,360,85.3C480,96,600,128,720,133.3C840,139,960,117,1080,112C1200,107,1320,117,1380,122.7L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
@@ -244,86 +303,89 @@
                     </div>
                 </div>
             </div>
+          
             <div class="container-fluid "style="max-width:80%; position: relative;">
+              
                 <div class="row">
-                    <div class="filter-content overflow-hidden w-100 sm-padding-15px-lr">
-                        <ul class="portfolio-grid work-4col gutter-medium hover-option7" >
+                    <div class="filter-content overflow-hidden sm-padding-15px-lr" style="width:100%">
+                     
+                        <ul class="portfolio-grid work-5col gutter-medium hover-option7" >
                             <li class="grid-sizer"></li>
                             <!-- start portfolio item -->
                             <li class="grid-item wow fadeInUp">
-                                <!-- <a href="#" onclick="return false;">
-                                    <figure>
-                                        <div class="portfolio-img"><img src="images/products/portfolio_amz_4.png" alt=""/></div>
-                                        <figcaption>
-                                            <div class="portfolio-hover-main text-center last-paragraph-no-margin">
-                                                <div class="portfolio-hover-box align-middle">
-                                                    <div class="portfolio-hover-content position-relative">
-                                                        <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-extra-dark-gray">Arcade Games</span>
-                                                        <p class="text-medium-gray text-uppercase text-extra-small">Retro Casual Games</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </figcaption>
-                                    </figure>
-                                </a>
-                            </li> -->
-                            <!-- end portfolio item -->
-                            <!-- start portfolio item -->
-                            <!-- <li class="grid-item wow fadeInUp" data-wow-delay="0.2s">
                                 <a href="#" onclick="return false;">
                                     <figure>
-                                        <div class="portfolio-img"><img src="images/products/portfolio_amz_3_c_800x1200.png" alt=""/></div>
+                                        <div class="portfolio-img"><img src="images/products/chamada_amz_SITE_aloha.png" alt=""/></div>
                                         <figcaption>
                                             <div class="portfolio-hover-main text-center last-paragraph-no-margin">
                                                 <div class="portfolio-hover-box align-middle">
                                                     <div class="portfolio-hover-content position-relative">
-                                                        <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-extra-dark-gray">APLICATIVOS E SISTEMAS</span>
-                                                        <p class="text-medium-gray text-uppercase text-extra-small">Soluções Customizadas</p>
+                                                        <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-extra-dark-gray">Aloha Bingo</span>
+                                                        <p class="text-medium-gray text-uppercase text-extra-small">DIVERSÃO GARANTIDA</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </figcaption>
                                     </figure>
                                 </a>
-                            </li> -->
+                            </li>
                             <!-- end portfolio item -->
                             <!-- start portfolio item -->
-                            <!-- <li class="grid-item wow fadeInUp" data-wow-delay="0.4s">
+                            <li class="grid-item wow fadeInUp" data-wow-delay="0.2s">
                                 <a href="#" onclick="return false;">
                                     <figure>
-                                        <div class="portfolio-img"><img src="images/products/portfolio_amz_5.png" alt=""/></div>
+                                        <div class="portfolio-img"><img src="images/products/chamada_amz_SITE_china.png" alt=""/></div>
                                         <figcaption>
                                             <div class="portfolio-hover-main text-center last-paragraph-no-margin">
                                                 <div class="portfolio-hover-box align-middle">
                                                     <div class="portfolio-hover-content position-relative">
-                                                        <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-extra-dark-gray">JOGOS EDUCATIVOS</span>
-                                                        <p class="text-medium-gray text-uppercase text-extra-small">Aprendizado e diversão</p>
+                                                        <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-extra-dark-gray">super china bingo</span>
+                                                        <p class="text-medium-gray text-uppercase text-extra-small">DIVERSÃO GARANTIDA</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </figcaption>
                                     </figure>
                                 </a>
-                            </li> -->
+                            </li>
                             <!-- end portfolio item -->
                             <!-- start portfolio item -->
-                            <!-- <li class="grid-item wow fadeInUp" data-wow-delay="0.6s">
+                            <li class="grid-item wow fadeInUp" data-wow-delay="0.4s">
                                 <a href="#" onclick="return false;">
                                     <figure>
-                                        <div class="portfolio-img"><img src="images/products/portfolio_amz_1_800x1200.png" alt=""/></div>
+                                        <div class="portfolio-img"><img src="images/products/chamada_amz_SITE_vegas.png" alt=""/></div>
                                         <figcaption>
                                             <div class="portfolio-hover-main text-center last-paragraph-no-margin">
                                                 <div class="portfolio-hover-box align-middle">
                                                     <div class="portfolio-hover-content position-relative">
-                                                        <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-extra-dark-gray">CONTEUDO DIGITAL</span>
-                                                        <p class="text-medium-gray text-uppercase text-extra-small">Branding, Posicionamento, Arte</p>
+                                                        <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-extra-dark-gray">bingo las vegas</span>
+                                                        <p class="text-medium-gray text-uppercase text-extra-small">DIVERSÃO GARANTIDA</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </figcaption>
                                     </figure>
                                 </a>
-                            </li> -->
+                            </li>
+                            <!-- end portfolio item -->
+                            <!-- start portfolio item -->
+                            <li class="grid-item wow fadeInUp" data-wow-delay="0.6s">
+                                <a href="#" onclick="return false;">
+                                    <figure>
+                                        <div class="portfolio-img"><img src="images/products/chamada_amz_SITE_grecia.png" alt=""/></div>
+                                        <figcaption>
+                                            <div class="portfolio-hover-main text-center last-paragraph-no-margin">
+                                                <div class="portfolio-hover-box align-middle">
+                                                    <div class="portfolio-hover-content position-relative">
+                                                        <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-extra-dark-gray">grecia bingo</span>
+                                                        <p class="text-medium-gray text-uppercase text-extra-small">DIVERSÃO GARANTIDA</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
                             <!-- end portfolio item -->
                             <!-- start portfolio-item item -->
                             <li class="grid-item wow fadeInUp ">
@@ -334,8 +396,8 @@
                                             <div class="portfolio-hover-main text-center last-paragraph-no-margin">
                                                 <div class="portfolio-hover-box align-middle">
                                                     <div class="portfolio-hover-content position-relative">
-                                                        <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-extra-dark-gray">CLIQUE E CONHEÇA MAIS</span>
-                                                        <p class="text-medium-gray text-uppercase text-extra-small text-center">JOKER SOCIAL BINGO</p>
+                                                        <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-extra-dark-gray">Joker Bingo</span>
+                                                        <p class="text-medium-gray text-uppercase text-extra-small text-center">DIVERSÃO GARANTIDA</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -345,54 +407,92 @@
                             </li>
                             <!-- end portfolio item -->
                             <!-- start portfolio item -->
-                            <!-- <li class="grid-item wow fadeInUp" data-wow-delay="0.2s">
+                            <li class="grid-item wow fadeInUp" data-wow-delay="0.2s">
                                 <a href="#" onclick="return false;">
                                     <figure>
-                                        <div class="portfolio-img"><img src="images/products/breve_novos_produtos_800x1200.png" alt=""/></div>
+                                        <div class="portfolio-img"><img src="images/products/chamada_amz_SITE_super_big.png" alt=""/></div>
                                         <figcaption>
                                             <div class="portfolio-hover-main text-center last-paragraph-no-margin">
                                                 <div class="portfolio-hover-box align-middle">
                                                     <div class="portfolio-hover-content position-relative">
-                                                        <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-extra-dark-gray">EM BREVE</span>
-                                                        <p class="text-medium-gray text-uppercase text-extra-small">NOVO PRODUTOS E NOVIDADES</p>
+                                                        <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-extra-dark-gray">super big bingo</span>
+                                                        <p class="text-medium-gray text-uppercase text-extra-small">DIVERSÃO GARANTIDA</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </figcaption>
                                     </figure>
                                 </a>
-                            </li> -->
+                            </li>
                             <!-- end portfolio item -->
                             <!-- start portfolio item -->
-                            <!-- <li class="grid-item wow fadeInUp" data-wow-delay="0.4s">
+                            <li class="grid-item wow fadeInUp" data-wow-delay="0.4s">
                                 <a href="#" onclick="return false;">
                                     <figure>
-                                        <div class="portfolio-img"><img src="images/products/breve_novos_produtos_800x800.png" alt=""/></div>
+                                        <div class="portfolio-img"><img src="images/products/chamada_amz_SITE_big_bingo.png" alt=""/></div>
                                         <figcaption>
                                             <div class="portfolio-hover-main text-center last-paragraph-no-margin">
                                                 <div class="portfolio-hover-box align-middle">
                                                     <div class="portfolio-hover-content position-relative">
-                                                        <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-extra-dark-gray">EM BREVE</span>
-                                                        <p class="text-medium-gray text-uppercase text-extra-small">NOVO PRODUTOS E NOVIDADES</p>
+                                                        <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-extra-dark-gray">big bingo</span>
+                                                        <p class="text-medium-gray text-uppercase text-extra-small">DIVERSÃO GARANTIDA</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </figcaption>
                                     </figure>
                                 </a>
-                            </li> -->
+                            </li>
                             <!-- end portfolio item -->
                             <!-- start portfolio item -->
                             <li class="grid-item wow fadeInUp" data-wow-delay="0.6s">
                                 <a href="https://amazoniabingo.com/">
                                     <figure>
-                                        <div class="portfolio-img"><img src="images/products/portfolio_amz_0_800x1200.png" alt=""/></div>
+                                        <div class="portfolio-img"><img src="images/products/chamada_amz_site_amb.png" alt=""/></div>
                                         <figcaption>
                                             <div class="portfolio-hover-main text-center last-paragraph-no-margin">
                                                 <div class="portfolio-hover-box align-middle">
                                                     <div class="portfolio-hover-content position-relative">
-                                                        <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-extra-dark-gray">CLIQUE E CONHEÇA MAIS</span>
-                                                        <p class="text-medium-gray text-uppercase text-extra-small text-center">AMAZONIA SOCIAL BINGO</p>
+                                                        <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-extra-dark-gray">AMAZONIA BINGO</span>
+                                                        <p class="text-medium-gray text-uppercase text-extra-small text-center">DIVERSÃO GARANTIDA</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <!-- end portfolio item -->
+                             <!-- start portfolio item -->
+                             <li class="grid-item wow fadeInUp" data-wow-delay="0.6s">
+                                <a href="https://amazoniabingo.com/">
+                                    <figure>
+                                        <div class="portfolio-img"><img src="images/products/chamada_amz_SITE_mega_bingo.png" alt=""/></div>
+                                        <figcaption>
+                                            <div class="portfolio-hover-main text-center last-paragraph-no-margin">
+                                                <div class="portfolio-hover-box align-middle">
+                                                    <div class="portfolio-hover-content position-relative">
+                                                        <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-extra-dark-gray">mega bingo</span>
+                                                        <p class="text-medium-gray text-uppercase text-extra-small text-center">DIVERSÃO GARANTIDA</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <!-- end portfolio item -->
+                             <!-- start portfolio item -->
+                             <li class="grid-item wow fadeInUp" data-wow-delay="0.6s">
+                                <a href="https://amazoniabingo.com/">
+                                    <figure>
+                                        <div class="portfolio-img"><img src="images/products/chamada_amz_SITE_premio.png" alt=""/></div>
+                                        <figcaption>
+                                            <div class="portfolio-hover-main text-center last-paragraph-no-margin">
+                                                <div class="portfolio-hover-box align-middle">
+                                                    <div class="portfolio-hover-content position-relative">
+                                                        <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-extra-dark-gray">Golden Professional Prêmio</span>
+                                                        <p class="text-medium-gray text-uppercase text-extra-small text-center">DIVERSÃO GARANTIDA</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -423,6 +523,7 @@
                                 <li>Lançamentos.</li>
                             </ul>
                         </div>
+                        <!-- aaa -->
                         <!-- <a href="#contact" class="btn btn-small btn-rounded btn-transparent-dark-gray margin-10px-top">Contato</a> -->
                     </div>
                     <div class="col-12 col-xl-6 col-lg-7 col-md-12 box-dir">
@@ -562,20 +663,25 @@
            
             <div class="crm">
                 <div class="alt-font margin-15px-bottom text-uppercase" style="font-size:1.5rem; color: black;">PODEROSO SISTEMA BACKOFFICE</div>
-                <h5 class="alt-font mb-0 subcrm">Com nosso sistema, podemos oferecer marketing tools, <br>bonus, analises, para maior retenção dos jogadores.<br></h5>
+                <h5 class="alt-font mb-0 subcrm">Administramos recursos humanos, tecnologias e serviços de uma<br>empresa, apoiando e trabalhando para cumprir os objetivos.<br></h5>
             </div>
         </section>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="background-color:white">
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="background-color:white">
             <path fill="#2b2b2b" fill-opacity="1" d="M0,96L48,122.7C96,149,192,203,288,218.7C384,235,480,213,576,197.3C672,181,768,171,864,186.7C960,203,1056,245,1152,250.7C1248,256,1344,224,1392,208L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-          </svg>
+          </svg> -->
         <!-- end our services box -->
         <!-- start video section -->
         <section class="p-0 wow fadeIn quadro6">
-            
-            <div class="container-fluid">
+    
+            <div class="container-fluid cover-background" style="background-image:url('images/banner/world_banner_dark_white.jpg'); height: 1080px;">
                 <div class="row">
-                    <div class="col-12 col-xl-7 col-lg-6 cover-background md-height-500px sm-height-400px overflow-visible wow fadeInLeft" style="background-image:url('images/banner/trabgrupo1.png');">
+                    <div class="col-12 col-xl-7 col-lg-6 cover-background md-height-500px sm-height-400px overflow-visible wow fadeInLeft">
+                        <!-- <div id="map"></div> -->
                     </div>
+
+                    <script src="/js/mapdata.js"></script>
+                    <script src="/js/worldmap.js"></script>
+
                     <div class="col-12 col-xl-5 col-lg-6 padding-eight-half-all lg-padding-seven-all wow fadeInRight solucao">
                         <h4 class="alt-font font-weight-600 margin-45px-bottom md-margin-25px-bottom sm-margin-20px-bottom ">Parceiros e distribuidores globais</h4>
                         <p class="margin-35px-bottom width-95 md-margin-25px-bottom sm-width-100">Através de rede de distribuição lincenciada globalmente, nossos jogos chegam a vários sites no mundo todo</p>
@@ -602,7 +708,7 @@
                 <div class="row align-items-md-start justify-content-center">
                     <!-- start logo -->
                     <div class="col-lg-3 md-margin-50px-bottom sm-margin-30px-bottom text-center" style="padding:0px;">
-                        <a href="index.html"><img class="footer-logo" src="images/logos/logo_amazonia_green.png" data-rjs="images/logo-white@2x.png" alt="Pofo" style="margin-bottom: 25px"></a>
+                        <a href="index.html"><img class="footer-logo" src="images/logos/logo_amazonia_green.png" data-rjs="images/logo-white@2x.png" alt="Pofo" style="margin-bottom: 25px;" ></a>
                         <div class="medias">
                         <a href="https://www.facebook.com/Amazonia-Studio-108128804382800" title="Facebook" target="_blank"><i class="fab fa-facebook-f fa-2x" aria-hidden="true"></i></a>
                         <a href="https://www.instagram.com/amazoniastudios/" title="Instagram" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>    
@@ -614,33 +720,69 @@
                     <!-- start copyright -->
                     <div class="sm-margin-30px-bottom sm-text-center">
                         <div class="trabalho">
-                            <h5 class="margin-5px-bottom margin-15px-top text-light-gray">Venha fazer parte de nossa equipe</h5>
-                            <span class="text-medium">Nós estamos sempre buscando pessoas alinhadas com nossa cultura e empresa.</span>
+                            <!-- <h5 class="margin-5px-bottom margin-15px-top text-light-gray">Venha fazer parte de nossa equipe</h5>
+                            <span class="text-medium">Nós estamos sempre buscando pessoas alinhadas com nossa cultura e empresa.</span> -->
                             <h5 class="mb-0 text-light-gray" style="margin-top:23px;">Contato</h5>
-                            <a href="mailto:info@amazoniastudio.com">info@amazoniastudio.com</a>
+                            <a href="mailto:info@amazoniastudio.com">info@amazoniagames.com</a>
                         </div>
                     </div>
                     <!-- end copyright -->
                     <!-- start social media -->
                     
                 </div>
-                <div class="row justify-content-center text-center mb-5 ">
+                
+                <div class="row justify-content-center text-center mb-2 ">
                     <div class="col-md-12 aviso">
                         <h2 class="warning_footer">Aviso</h2>
                             <ul>
-                                <li><span>- The games are intended for an adult audience</span></li>
-                                <li><span>- The games do not offer opportunities with real money and opportunities to earn real money or prizes.</span>
+                                <li><span>The games are intended for an adult audience</span></li>
+                                <!-- <li><span>- The games do not offer opportunities with real money and opportunities to earn real money or prizes.</span>
                                 <li><span>- Wins made while gambling in social casino games can't be exchanged into real money or real rewards.</span>
                                 <li><span>- The practice of success in social casino games does not imply future success in games of chance with real money.</span>
                                 <li><span>- Our games are for entertainment only, all points in the game stay in the game and all game points have no cash value. Although in-game currency can be purchased for real money or won during gameplay, none of the items in the game have any cash value.</span>
                                 <li><span>- Read our Terms of Use, Privacy Policy, and other important information.</span>
                                 <li><span>- If you need help or support, please contact us at: info@amazoniabingo.com</span>
-                                <li><span>- You can delete your account at login menu in the game</span>
+                                <li><span>- You can delete your account at login menu in the game</span> -->
                             </ul>
                     </div>
                 </div> 
-                <div class="row justify-content-center text-center">
-                        <div class="foot-menu">                            
+                <div class="row align-items-md-start justify-content-center lei">
+                    <!-- start logo -->
+                    <div class="sm-margin-30px-bottom sm-text-center box-info">
+                        <h5 class="margin-5px-bottom margin-15px-top text-light-gray">CERTIFICADOS</h5>
+
+                        <div class="info1">
+                            <span class="mb-0 text-light-gray">A Amazonia Games e os seus produtos estão sendo validados e certificados por organizações internacionais de acreditação.</span>
+                        </div>
+                    </div>
+                    <div class="sm-margin-30px-bottom sm-text-center box-info">
+                        <h5 class="margin-5px-bottom margin-15px-top text-light-gray">CERTIFICADOS</h5>
+
+                        <div class="info1">
+                            <span class="mb-0 text-light-gray">A Amazonia Games e os seus produtos estão sendo validados e certificados por organizações internacionais de acreditação.</span>
+                        </div>
+                    </div>
+                    <div class="sm-margin-30px-bottom sm-text-center box-info">
+                        <h5 class="margin-5px-bottom margin-15px-top text-light-gray">JOGO SEGURO</h5>
+
+                        <div class="info1">
+                            <span class="mb-0 text-light-gray">Como responsável no desenvol-<br>vimento de jogos, a Amazonia Games adere estritamente à responsabilidade social.</span>
+                        </div>
+                    </div>
+                    <div class="sm-margin-30px-bottom sm-text-center box-info">
+                        <h5 class="margin-5px-bottom margin-15px-top text-light-gray">PRÊMIOS</h5>
+
+                        <div class="info1">
+                            <span class="mb-0 text-light-gray">Estamos trabalhando para arduamente para disputarmos o prêmio de Melhor Fornecedor Tecnológico/Plataforma de 2018</span>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+                
+                <div class="row justify-content-center text-center mt-3">
+                        <!-- <div class="foot-menu">                            
                             <a href="terms-of-service.html">Termos de Serviço</a>
                             <span> | </span>
                             <a href="terms-of-privacy-policy.html">Política de Privacidade</a>
@@ -650,10 +792,10 @@
                             <a href="responsible-game.html">Jogo Responsável</a>
                             <span> | </span>
                             <a href="index.html#contact">Perguntas Frequentes</a>
-                    </div>
+                    </div> -->
                     <div class="col-md-12">
                         <div class="copy-right">
-                            <h5>2021 &copy Amazonia Studio. Todos os direitos reservados.</h5>
+                            <h5>2021 &copy Amazonia Games. Todos os direitos reservados.</h5>
                         </div>
                     </div>
                 </div>
@@ -721,6 +863,7 @@
         <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>-->
         <!-- setting -->
         <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/slider.js"></script>
 
 
         <script src="node_modules/particles.js/particles.js"></script>
