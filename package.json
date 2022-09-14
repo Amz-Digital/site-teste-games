@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "particles.js": "^2.0.0"
+    "particles.js": "^2.0.0",
+    "vanilla-tilt": "^1.7.2"
   }
 }

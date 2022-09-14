@@ -1,19 +1,19 @@
 /* RESPONSIVO MOBILE */
-@media only screen and (max-width: 413px) and (max-height: 916px){
-    .globo{max-width: 50%; justify-content: center;}
+@media only screen and (max-width: 415px) and (max-height: 916px){
+    .globo{max-width: 100%;justify-content: center;}
     .wave{opacity: 0;}
     section#about h3, .titulo{font-size: 2.3rem !important; text-align: center !important;}
     .quadro2 p, .quadro3 p{font-size: 1.2rem !important}
     .titulo{font-size:2.3rem !important}
     .quadro3 .bg-white{padding:30px 15px 10px 15px !important; margin:0px 40px 0px 40px;}
-    .quadro4 h5{margin-top: 80px; font-size: 2.3rem;}
+    .quadro4 h5{margin-top: 80px; font-size: 2rem !important; line-height: 30px !important;}
     .portfolio-grid{max-width: 100%;}
     .quadro5 .feature-box-18 {margin: 0px 50px 0px 50px; padding: 20px 0px 20px 0px;}
     .quadro5 .box-esq h3{text-align: center!important;}
     .quadro5{padding-top: 70px !important;}
     .subcrm{font-size: 1.2rem !important; line-height: 30px !important; margin: 20px;}
-    .solucao h4{font-size: 2.3rem !important; text-align: center !important;}
-    .solucao p, li{font-size: 1.2rem !important;}
+    /* .solucao h4{font-size: 2.3rem !important; text-align: center !important;}
+    .solucao p, li{font-size: 1.2rem !important;} */
     .aviso, .trabalho{margin: -15px 0px 0px 0px !important;padding: 0px !important;}
     .page-rights{padding: 35px !important;}
     .page-rights h3{font-size: 1.5rem !important; letter-spacing: 0px; line-height: 25px;}
@@ -21,6 +21,38 @@
     .aviso p {text-align: justify !important;}
     .foot-menu{display: flex;flex-wrap: wrap;justify-content: center;}
     .foot-menu span{opacity: 0;}
+        .solucao, .solucao ul li, .solucao p {
+        justify-content: end !important;
+        text-align: end !important;
+        margin-right: -20px;
+        padding-right: 15px !important;
+    }
+    .solucao ul li{padding-right: 30px !important;}
+    .banner-globe{
+        background-color: white !important;
+        color: white !important;
+        background-blend-mode:lighten;
+        height: 700px !important;
+    }
+    .solucao p, .solucao ul li{
+        padding-left: 0px !important;
+        font-size: 1.3rem !important;
+    }
+    .solucao h4{
+        padding-right: 15px !important;
+        text-align: end;
+        margin-top: -300px !important;
+        font-size: 2.1rem !important;
+        line-height: 30px !important;
+    }
+    .list-style-12 li:before {
+        content: "";
+        position: absolute;
+        top: 1px;
+        left: 0;
+        font-family: Font Awesome\ 5 Free;
+        font-weight: 900;
+    }
 }
 /* RESPONSIVO MOBILE DEITADO */
 @media only screen and (max-width: 916px) and (max-height: 413px){
@@ -53,9 +85,79 @@
     .warning_footer{margin-top: 30px !important;}
     #contact{margin-top: 1px !important;}
 }
-
+@media (max-width: 1605px) and (max-height: 939px){
+    footer .box-info span{
+        font-size: 1.1rem !important;
+    }
+    footer .box-info h5{
+        font-size: 1.2rem !important;
+    }
+}
+@media (max-width: 1280px){
+    .quadro3 .titulo{
+        line-height: 50px;
+    }
+    .quadro4 h5{
+        line-height: 50px;
+    }
+    .quadro5 .topic{
+        margin-left: 20px;
+    }
+}
+@media (max-width: 1024px){
+    .quadro2 h3{
+        padding-top:60px;
+    }
+}
+@media (max-width: 992px){
+    .banner-globe{
+        width: 100%;
+    }
+    .solucao, .solucao ul li, .solucao p {
+        justify-content: end !important;
+        text-align: end !important;
+        margin-right: -20px;
+    }
+    .solucao p, .solucao ul li{
+        padding-left: 350px;
+        font-size: 1.3rem !important;
+    }
+    .solucao h4{
+        text-align: end;
+        margin-top: -400px;
+        font-size: 2.1rem !important;
+    }
+    .list-style-12 li:before {
+        content: "";
+        position: absolute;
+        top: 1px;
+        left: 0;
+        font-family: Font Awesome\ 5 Free;
+        font-weight: 900;
+    }
+    .footer-logo{
+        display: inline;
+    }
+    section#about h3{
+        font-size: 2.8rem !important;
+    }
+    .quadro4 h5{
+        font-size: 2.8rem;
+    }
+    .quadro4 .portfolio-grid{
+        justify-content: center !important;
+        text-align: center !important;
+    }
+}
+@media (max-width:1107px){
+    header nav.navbar.white-link .navbar-nav > li > a, nav.navbar.bootsnav.white-link ul.nav > li > a, header nav.navbar.white-link .header-social-icon a, nav.navbar.bootsnav.white-link .header-social-icon a, header nav.navbar.white-link .header-searchbar a, nav.navbar.bootsnav.white-link .header-searchbar a, header nav.navbar.bootsnav ul.nav.white-link > li > a, nav.navbar.white-link .heder-menu-button a {
+        display: flex !important;
+        font-size: 1.2rem !important;
+    }
+}
 
 @media (min-width: 992px) {
+
     .feature-box-14 > div:nth-child(even) { border-bottom: 0}
     .feature-box-14 > div:nth-child(odd) { border-bottom: 0}
 
