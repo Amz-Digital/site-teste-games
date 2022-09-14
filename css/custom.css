@@ -17,7 +17,9 @@ ul, ul li{
   cursor:auto;
 }
 .swiper-wrapper h6{
-  font-size: 2rem
+  font-size: 2rem;
+  color: white !important;
+  opacity: 1 !important;
 }
 
 
