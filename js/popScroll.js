@@ -19,6 +19,6 @@ function enableScroll() {
 function encaminharSite()
 {
   // window.close();
-   window.location.replace('decline_popup.html');
+   window.location.replace('/decline_popup.html');
   
 }

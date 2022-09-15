@@ -29,14 +29,14 @@ function teste2()
   {
     //fala q é preto
     // console.log("preto");
-    alterarImagem('logoo', 'images/logos/logo_amg3_verde.png');
+    alterarImagem('logoo', '/images/logos/logo_amg3_verde.png');
     alterarCor("rgb(121, 192, 0)");
   }
   else
   {
     //fala que é nada
     // console.log("nada");
-    alterarImagem('logoo', 'images/logos/logo_amg3.png');
+    alterarImagem('logoo', '/images/logos/logo_amg3.png');
     alterarCor("white");
   }
 }

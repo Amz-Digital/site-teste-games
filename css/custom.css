@@ -28,13 +28,16 @@ ul, ul li{
 
 
 /* INÍCIO ONDAS */
-div.wave{
+
+div.wave-topo{
   width: 100%;
   bottom: 0;
   position: absolute;
-  z-index: 99;
+  margin-top: -500px !important;
 }
-.wave svg{
+.wave-topo svg{
+  margin-top: -400px !important;
+  z-index: 49;
   position: absolute;
   width: 100%;
   bottom: 0;
