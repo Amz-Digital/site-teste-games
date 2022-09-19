@@ -1,27 +1,37 @@
 body {
   background-color: #2b2b2b;
 }
-ul, ul li{
-  margin: 0px; padding: 0px;
+ul,
+ul li {
+  margin: 0px;
+  padding: 0px;
 }
-.header nav.navbar.white-link .navbar-nav > li > a, nav.navbar.bootsnav.white-link ul.nav > li > a, header nav.navbar.white-link .header-social-icon a, nav.navbar.bootsnav.white-link .header-social-icon a, header nav.navbar.white-link .header-searchbar a, nav.navbar.bootsnav.white-link .header-searchbar a, header nav.navbar.bootsnav ul.nav.white-link > li > a, nav.navbar.white-link .heder-menu-button a {
+.header nav.navbar.white-link .navbar-nav > li > a,
+nav.navbar.bootsnav.white-link ul.nav > li > a,
+header nav.navbar.white-link .header-social-icon a,
+nav.navbar.bootsnav.white-link .header-social-icon a,
+header nav.navbar.white-link .header-searchbar a,
+nav.navbar.bootsnav.white-link .header-searchbar a,
+header nav.navbar.bootsnav ul.nav.white-link > li > a,
+nav.navbar.white-link .heder-menu-button a {
   color: rgb(121, 192, 0);
   font-size: 1.5rem;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-.trocaCorHeader a{
+.trocaCorHeader a {
   color: rgb(255, 255, 255) !important;
 }
 .white-move .swiper-slide {
-  cursor:auto;
+  cursor: auto;
 }
-.swiper-wrapper h6{
+.swiper-wrapper h6 {
   font-size: 2rem;
   color: white !important;
   opacity: 1 !important;
 }
-.btn-language img{
+.btn-language img {
   border-radius: 50%;
   border-color: 3px solid white;
   height: 30px;
@@ -30,19 +40,18 @@ ul, ul li{
   box-shadow: 2px solid black;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;1,100&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Anton:300,400,600,800|Nunito:300,400,600,800');
-
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Anton:300,400,600,800|Nunito:300,400,600,800");
 
 /* INÍCIO ONDAS */
 
-div.wave-topo{
+div.wave-topo {
   width: 100%;
   bottom: 0;
   position: absolute;
   margin-top: -500px !important;
 }
-.wave-topo svg{
+.wave-topo svg {
   margin-top: -400px !important;
   z-index: 49;
   position: absolute;
@@ -73,40 +82,40 @@ section#about h3 {
   color: #ffffff;
   font-weight: 700;
   letter-spacing: 3px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .quadro2 p {
   text-align: justify;
-  color: #E2E2E2;
+  color: #e2e2e2;
   font-size: 1.3rem;
   font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-body{
+body {
   height: 100%;
   margin: 0;
 }
 
 #container {
-    position: relative;
-    height: 90vh;
+  position: relative;
+  height: 90vh;
 }
 .quadro3 {
-  padding-top:-100px !important;
+  padding-top: -100px !important;
 }
 .quadro3 .titulo {
   color: #f0f0f0;
   font-size: 3.3rem;
   padding-top: 50px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 .quadro3 .subtitulo {
-  margin-top:30px;
+  margin-top: 30px;
   color: #e6e6e6;
   font-size: 1.3rem;
   font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .quadro3 .bg-white {
   background-color: #202020 !important;
@@ -114,7 +123,7 @@ body{
 .quadro3 .bg-white p {
   color: #e6e6e6;
   font-weight: 300;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.35rem;
   text-align: center;
 }
@@ -132,7 +141,7 @@ body{
   padding-top: 0px !important;
   background-color: white;
 }
-.quadro4 h5{
+.quadro4 h5 {
   font-size: 3.3rem;
   line-height: 50px;
 }
@@ -140,7 +149,7 @@ section {
   padding-top: 0px;
 }
 .quadro5 .box-esq h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 3.3rem;
   font-weight: 700;
   margin-bottom: 50px;
@@ -162,8 +171,8 @@ section {
   text-align: center;
   justify-content: center;
   color: black;
-  font-size:1.4rem; 
-  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 1px;
   font-weight: 300;
 }
@@ -173,27 +182,26 @@ section {
   text-align: center;
   justify-content: center;
 }
-.box-dir svg{
+.box-dir svg {
   justify-content: center;
   text-align: center;
   display: inline-block;
 }
-.feature-box-18{
+.feature-box-18 {
   text-align: center;
   justify-content: center;
 }
-.box-dir p
-{
-color: rgb(94, 94, 94);
-text-align: center;
-font-family: 'Montserrat', sans-serif;
-text-transform:uppercase;
-font-size: 1.2rem;
-letter-spacing: 0.5px;
-font-weight: 300;
+.box-dir p {
+  color: rgb(94, 94, 94);
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+  font-weight: 300;
 }
 .box-dir .text-medium {
-  font-size:1.4rem
+  font-size: 1.4rem;
 }
 
 .box-dir ul {
@@ -207,18 +215,17 @@ font-weight: 300;
 .box-esq ul li {
   font-size: 1.2rem;
   padding: 3px;
-  font-family: 'Montserrat', sans-serif;
-  
+  font-family: "Montserrat", sans-serif;
 }
 .solucao p {
   text-align: justify;
   font-size: 1.5rem;
   color: rgb(37, 37, 37);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
 .solucao h4 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: right;
   font-weight: 700;
   font-size: 3.3rem;
@@ -227,12 +234,23 @@ font-weight: 300;
 }
 .solucao li {
   color: rgb(37, 37, 37) !important;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.3rem;
   font-weight: 300;
   text-align: start;
 }
-#icone1, #icone2, #icone3, #icone4, #msg1, #msg2, #msg3, #msg4, #msg5, #msg6, #msg7, #msg8 {
+#icone1,
+#icone2,
+#icone3,
+#icone4,
+#msg1,
+#msg2,
+#msg3,
+#msg4,
+#msg5,
+#msg6,
+#msg7,
+#msg8 {
   transition: 0.01s;
 }
 .feature-box-18:hover p {
@@ -242,7 +260,23 @@ font-weight: 300;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  margin-left:0px;
+  margin-left: 0px;
+}
+.crm2 {
+  padding: 100px 0px 0px 0px;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  color: black;
+}
+.subcrm2 {
+  text-align: justify;
+  justify-content: center;
+  color: black;
+  font-size: 1.3rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 300;
 }
 /* ============================
 == TEXTO "ATENÇÃO" NO FOOTER ==
@@ -250,60 +284,63 @@ font-weight: 300;
 .aviso {
   margin-top: 30px;
   text-align: center;
-  color: #E6E6E6;
+  color: #e6e6e6;
 }
 .aviso h2 {
   color: #d6d5d5;
   font-size: 1.5rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   margin: 0px;
 }
 .aviso ul li {
   list-style: none;
   text-align: center;
-  color: #6F6F6F;
+  color: #6f6f6f;
   font-size: 1.2rem;
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.lei h5{
-  font-family: 'Montserrat', sans-serif;
+.lei h5 {
+  font-family: "Montserrat", sans-serif;
   font-size: 1.3rem !important;
   text-transform: uppercase;
   color: white;
 }
-.box-info{
+.box-info {
   padding: 10px 40px 10px 40px;
 }
-.info1{
+.info1 {
   width: 300px !important;
   text-align: justify;
 }
-.info1 span{
-  font-family: 'Montserrat', sans-serif;
+.info1 span {
+  font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
 }
 footer {
-  padding: 0 50px 0px 50px;
+  padding: 0px 50px 0px 50px;
 }
 .trabalho {
   width: auto !important;
   text-align: center;
   justify-content: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
 .trabalho h5 {
   font-size: 1.5rem;
 }
-.trabalho span, a {
+.trabalho span,
+a {
   font-size: 1rem;
 }
 .container-footer .fab {
   margin: 0px 10px 0px 10px;
 }
-footer{margin-top: 100px;}
+footer {
+  margin-top: 100px;
+}
 /* ------------------------- */
 .foot-menu a:hover {
   color: #a9caac;
@@ -313,9 +350,9 @@ footer{margin-top: 100px;}
   -ms-transition: all ease 0.5s;
   -o-transition: all ease 0.5s;
 }
-.foot-menu a{
+.foot-menu a {
   font-size: 1.2rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 19px;
   padding: 10px;
   color: #d6d5d5d5;
@@ -323,36 +360,39 @@ footer{margin-top: 100px;}
 .copy-right h5 {
   font-size: 1rem;
 }
-.page-rights{
+.page-rights {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(211, 211, 211);
   text-align: center;
   padding: 0px 400px 0px 400px;
 }
-.page-rights p a, ul li a{
+.page-rights p a,
+ul li a {
   color: rgb(67, 139, 70);
 }
-.page-rights h3{
+.page-rights h3 {
   text-align: start;
   font-size: 2rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-.page-rights td, th {
+.page-rights td,
+th {
   font-size: 1rem;
   color: rgb(211, 211, 211);
   align-items: center !important;
   justify-content: center;
 }
-.pages-rights ul li{
+.pages-rights ul li {
   font-size: 1rem !important;
 }
-.cabecalho{
+.cabecalho {
   text-align: center;
   justify-content: center;
   color: rgb(119, 119, 119);
-  
 }
-#letra5, #letra6, #letra7{
+#letra5,
+#letra6,
+#letra7 {
   opacity: 0;
   color: rgb(221, 221, 221);
 }
