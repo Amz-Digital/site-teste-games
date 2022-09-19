@@ -10,9 +10,9 @@ function alterarCor(cor)
   document.getElementById('letra25').style.color = cor;
   document.getElementById('letra3').style.color = cor;
   document.getElementById('letra4').style.color = cor;
-  document.getElementById('letra5').style.color = cor;
-  document.getElementById('letra6').style.color = cor;
-  document.getElementById('letra7').style.color = cor;
+  // document.getElementById('letra5').style.color = cor;
+  // document.getElementById('letra6').style.color = cor;
+  // document.getElementById('letra7').style.color = cor;
   document.getElementById('sanduiche').style.color = cor;
 }
 function teste2()

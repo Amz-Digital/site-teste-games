@@ -21,7 +21,14 @@ ul, ul li{
   color: white !important;
   opacity: 1 !important;
 }
-
+.btn-language img{
+  border-radius: 50%;
+  border-color: 3px solid white;
+  height: 30px;
+  width: 30px;
+  opacity: 0.75;
+  box-shadow: 2px solid black;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;1,100&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Anton:300,400,600,800|Nunito:300,400,600,800');
@@ -118,7 +125,7 @@ body{
 .quadro3 .titulo2 {
   font-size: 1.5rem;
   font-weight: 500;
-  margin-bottom: 50px;
+  margin-bottom: 22px;
 }
 
 .quadro4 {
