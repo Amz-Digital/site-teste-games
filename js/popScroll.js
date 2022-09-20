@@ -22,3 +22,9 @@ function encaminharSite()
    window.location.replace('/decline_popup.html');
   
 }
+function encaminharSiteEn()
+{
+  // window.close();
+   window.location.replace('/en/decline_popup.html');
+  
+}

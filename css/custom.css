@@ -182,7 +182,7 @@ section {
   text-align: center;
   justify-content: center;
 }
-.box-dir svg {
+.box-dir svg{
   justify-content: center;
   text-align: center;
   display: inline-block;
@@ -224,7 +224,7 @@ section {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
-.solucao h4 {
+.solucao h4, .quadro7 h4 {
   font-family: "Montserrat", sans-serif;
   text-align: right;
   font-weight: 700;
@@ -238,6 +238,28 @@ section {
   font-size: 1.3rem;
   font-weight: 300;
   text-align: start;
+}
+.quadro7 {
+  justify-content: end;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  background-color: white;
+}
+.quadro7 .box-esq2 h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.3rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-align: left;
+}
+.box-esq2 ul li {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+}
+.quadro7 img{
+  width: 600px;
+  padding: 20px;
+  margin-top: 60px;
 }
 #icone1,
 #icone2,
@@ -306,18 +328,40 @@ section {
   font-size: 1.3rem !important;
   text-transform: uppercase;
   color: white;
+  font-weight: 600;
+  margin-left: 15px;
+}
+.leis-icon{
+  justify-content: center;
+  text-align: center;
+  display: inline-block;
+  margin: 20px 0px 0px 10px;
 }
 .box-info {
   padding: 10px 40px 10px 40px;
 }
 .info1 {
   width: 300px !important;
-  text-align: justify;
+  text-align: center;
 }
 .info1 span {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
 }
+.titulo-info {
+  text-align: center;
+  color: #e6e6e6;
+  padding: 0px 30px 50px 30px;
+}
+.titulo-info h2 {
+  line-height: normal;
+  color: #d6d5d5;
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  margin: 0px;
+}
+
 footer {
   padding: 0px 50px 0px 50px;
 }
