@@ -100,8 +100,17 @@ body {
   position: relative;
   height: 90vh;
 }
+.quadradinho{
+  height: 390px;
+  width: 420px;
+  padding: 10%;
+}
+.quadradinho p {
+  color: #252525;
+}
 .quadro3 {
-  padding-top: -100px !important;
+  background-color: white;
+  padding-top: 200px !important;
 }
 .quadro3 .titulo {
   color: #f0f0f0;
@@ -112,16 +121,15 @@ body {
 }
 .quadro3 .subtitulo {
   margin-top: 30px;
-  color: #e6e6e6;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
 }
 .quadro3 .bg-white {
-  background-color: #202020 !important;
+  background-color: #e7e7e7 !important;
 }
 .quadro3 .bg-white p {
-  color: #e6e6e6;
+  color: #292929;
   font-weight: 300;
   font-family: "Montserrat", sans-serif;
   font-size: 1.35rem;
@@ -133,13 +141,14 @@ body {
 }
 .quadro3 .titulo2 {
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 22px;
 }
 
 .quadro4 {
   padding-top: 0px !important;
-  background-color: white;
+  background-color: #2b2b2b;
+  padding-bottom: 100px !important;
 }
 .quadro4 h5 {
   font-size: 3.3rem;
@@ -150,13 +159,13 @@ section {
 }
 .quadro5 .box-esq h3 {
   font-family: "Montserrat", sans-serif;
-  font-size: 3.3rem;
+  font-size: 3.5rem;
   font-weight: 700;
   margin-bottom: 50px;
   text-align: left;
 }
 .quadro5 {
-  padding-top: 200px;
+  padding-top: 0px;
   padding-bottom: 0px;
   background-color: white;
 }
@@ -182,7 +191,7 @@ section {
   text-align: center;
   justify-content: center;
 }
-.box-dir svg{
+.box-dir svg {
   justify-content: center;
   text-align: center;
   display: inline-block;
@@ -224,7 +233,8 @@ section {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
-.solucao h4, .quadro7 h4 {
+.solucao h4,
+.quadro7 h4 {
   font-family: "Montserrat", sans-serif;
   text-align: right;
   font-weight: 700;
@@ -256,7 +266,7 @@ section {
   font-size: 1.2rem;
   font-family: "Montserrat", sans-serif;
 }
-.quadro7 img{
+.quadro7 img {
   width: 600px;
   padding: 20px;
   margin-top: 60px;
@@ -331,7 +341,7 @@ section {
   font-weight: 600;
   margin-left: 15px;
 }
-.leis-icon{
+.leis-icon {
   justify-content: center;
   text-align: center;
   display: inline-block;
