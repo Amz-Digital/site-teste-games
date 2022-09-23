@@ -473,7 +473,14 @@ th {
 }
 .img-vertical{
   height: 500px !important;
-  width: 300px !important;
+  width: 320px !important;
+}
+.page-logo{
+  margin-top: -10%;
+  display: inline;
+  justify-content: center;
+  width: 550px ;
+  height: 450px ;
 }
 .game-page li {
   font-family: "Montserrat", sans-serif;
@@ -497,6 +504,33 @@ th {
 .game-page .botao {
   text-align: center;
   justify-content: center;
+}
+.game-page .botao3{
+  text-align: center;
+  justify-content: center;
+}
+.botao3 button{
+  background-image: url("/images/play.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 97px;
+  width: 230px;
+  margin: 0px;
+  border: none;
+  padding: 5px;;
+}
+.botao3 button:hover{
+  background-image: url("/images/play_hover.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+}
+.botao3 button:active {
+  background-image: url("/images/play_pressed.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
 }
 
 .game-page {
