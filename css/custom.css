@@ -268,8 +268,8 @@ section {
 }
 .quadro7 img {
   width: 600px;
-  padding: 20px;
-  margin-top: 60px;
+  padding: 0px 20px 20px 20px;
+  margin-top: 0px;
 }
 #icone1,
 #icone2,
