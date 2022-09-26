@@ -28,3 +28,8 @@ function encaminharSiteEn()
    window.location.replace('/en/decline_popup.html');
   
 }
+
+// function showPopup(){
+//   aux = localStorage.getItem("aux");
+//   localStorage.setItem("aux","changed");
+// }
