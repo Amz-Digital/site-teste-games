@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en-us">
+<html class="no-js" lang="pt-br">
     <head>
         <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -52,7 +52,7 @@
         <!-- responsive css -->
         <link rel="stylesheet" href="/css/responsive.css" />
         <!--[if IE]>
-            <script src="js/html5shiv.js"></script>
+            <script src="/js/html5shiv.js"></script>
         <![endif]-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -60,14 +60,18 @@
 
         <link rel="stylesheet" href="/css/custom.css">
         <link rel="stylesheet" href="/css/particulas.css">
-        <!-- <link rel="stylesheet" href="/css/slider.css"> -->
+        <link rel="stylesheet" href="/css/slider.css">
         <link rel="stylesheet" href="https://flowbite.com/docs/flowbite.css?v=1.5.3a">
+        <link rel="stylesheet" href="/css/cookies.css">
+        <script src="/js/cookies.js"></script>
         <script src="/js/popScroll.js"></script>
         <script src="/js/popup1.js"></script>
         <script src="/js/popup2.js"></script>
 
     </head>
-    <body onload="mostrarPopUp();disableScroll(); changeLanguage();">
+    <!-- <body> -->
+    <body onload="mostrarPopUp();disableScroll();">
+
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TS56P7J"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -84,26 +88,26 @@
                     <!-- Modal header -->
                     <div class="flex justify-between items-start p-4 rounded-t border-b dark:border-gray-600">
                         <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
-                            Age Verification
+                            Verificação de Idade
                         </h3>
-                        <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-toggle="defaultModal" onclick="encaminharSiteEn()">
+                        <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-toggle="defaultModal" onclick="encaminharSite()">
                             <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                            <span class="sr-only" >Close Popup</span>
+                            <span class="sr-only" >Fechar Popup</span>
                         </button>
                     </div>
                     <!-- Modal body -->
-                    <div class="p-6 space-y-6" >
-                        <p class=" leading-relaxed text-gray-500 dark:text-gray-400" style="font-size:1.3rem !important;">
-                        You must be 18 to view and use this website
+                    <div class="p-6 space-y-6">
+                        <p class="leading-relaxed text-gray-500 dark:text-gray-400"style="font-size:1.3rem !important;">
+                        Você deve ter mais de 18 anos de idade para usufruir deste site.
                         </p>
-                        <p class=" leading-relaxed text-gray-500 dark:text-gray-400" style="font-size:1.3rem !important;">
-                        We care about what we deliver and we take responsibility for it.
+                        <p class=" leading-relaxed text-gray-500 dark:text-gray-400"style="font-size:1.3rem !important;">
+                        Nós nos importamos com o que entregamos portanto nos responsabilizamos por isto.
                         </p>
                     </div>
                     <!-- Modal footer -->
                     <div class="flex items-center p-6 space-x-2 rounded-b border-t border-gray-200 dark:border-gray-600">
-                        <button data-modal-toggle="defaultModal" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onclick="enableScroll()" style="background-color: #79C000;">I'M OVER 18</button>
-                        <button data-modal-toggle="defaultModal" type="button" class="text-light hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600" onclick="encaminharSiteEn()" style="background-color: #fc4040;">I'M UNDER 18</button>
+                        <button data-modal-toggle="defaultModal" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onclick="enableScroll();  aceitarPopup(false);" style="background-color: #79C000;">Sou maior de idade</button>
+                        <button data-modal-toggle="defaultModal" type="button" class="text-light hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600" onclick="encaminharSite()" style="background-color: #fc4040;">Sou menor de idade</button>
                     </div>
                 </div>
             </div>
@@ -132,22 +136,22 @@
                             <ul id="accordion letra" class="nav navbar-nav no-margin alt-font text-normal" data-in="fadeIn" data-out="fadeOut">
                                 <!-- start menu item -->
                                 <li class="dropdown megamenu-fw">
-                                    <a href="#" id="letra1">Home</a><i class="fas fa-angle-down dropdown-toggle"  data-toggle="dropdown" aria-hidden="true"></i>                                    
+                                    <a href="#" id="letra1">Início</a><i class="fas fa-angle-down dropdown-toggle"  data-toggle="dropdown" aria-hidden="true"></i>                                    
                                 </li>
                                 
                                 <li class="dropdown megamenu-fw">
-                                    <a href="#games" id="letra2">Games</a><i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>                                    
+                                    <a href="#games" id="letra2">Jogos</a><i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>                                    
                                 </li>
                                 <li class="dropdown megamenu-fw">
-                                    <a href="#about" id="letra25">Products</a><i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>                                    
-                                </li>
-                                
-                                <li class="dropdown megamenu-fw">
-                                    <a href="#distribution" id="letra3">Technology</a><i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>                                    
+                                    <a href="#about" id="letra25">Produtos</a><i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>                                    
                                 </li>
                                 
                                 <li class="dropdown megamenu-fw">
-                                    <a href="#contact" id="letra4">Contact</a><i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>      
+                                    <a href="#distribution" id="letra3">Tecnologia</a><i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>                                    
+                                </li>
+                                
+                                <li class="dropdown megamenu-fw">
+                                    <a href="#contact" id="letra4">Contato</a><i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>      
                                     <div class="linha_baixo"></div>                              
                                 </li>
                                 
@@ -160,8 +164,8 @@
                             <a href="https://www.instagram.com/amazoniastudios/" title="Instagram" id="letra6" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>    
                             <a href="https://br.linkedin.com/company/amzdig" title="Linkedin" id="letra7" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>         -->
                             <div class="btn-language">
-                                <a href="/index.html" onclick="mudouLingua()">
-                                    <img src="/images/flag/usa.png">
+                                <a href="/index.html" >
+                                    <img src="/images/flag/brazil.png">
                                 </a>
                             </div>
                             <!-- <p></p> -->
@@ -185,7 +189,7 @@
                                 <div class="slider-text-middle-main">
                                     <div class="slider-text-middle">
                                         <div class="alt-font text-white-2 font-weight-700 title-large margin-two-bottom mx-auto lg-width-80 md-margin-four-bottom sm-width-90 sm-margin-15px-bottom sm-letter-spacing-0 titulo-principal" style="margin-top:-150px;">Amazonia Games</div>
-                                        <h6 class="text-white-2 opacity6 padding-ten-lr font-weight-300 margin-four-bottom md-margin-four-bottom sm-margin-20px-bottom">We provide Video Bingo and Slots games worldwide</h6>
+                                        <h6 class="text-white-2 opacity6 padding-ten-lr font-weight-300 margin-four-bottom md-margin-four-bottom sm-margin-20px-bottom">Nós fornecemos ótimos jogos mobile globalmente</h6>
                                         
                                     </div>
                                 </div>
@@ -209,9 +213,10 @@
                     <!-- end slider item -->
                     
                 </div>              
-                <div class="swiper-pagination swiper-pagination-square swiper-pagination-white swiper-full-screen-pagination d-none"></div>
+                <!-- <div class="swiper-pagination swiper-pagination-square swiper-pagination-white swiper-full-screen-pagination d-none"></div>
                 <div class="swiper-button-next slider-small-arrow-white"><i class="fas fa-angle-right pull-right"></i></div>
-                <div class="swiper-button-prev slider-small-arrow-white"><i class="fas fa-angle-left pull-right"></i></div>
+                <div class="swiper-button-prev slider-small-arrow-white"><i class="fas fa-angle-left pull-right"></i></div> -->
+                <!-- end slider pagination -->
                 <!-- end slider pagination -->
             </div>
             <!-- scroll down arrow -->
@@ -224,6 +229,18 @@
             <path fill="rgb(43, 43, 43)" fill-opacity="100" d="M0,288L80,266.7C160,245,320,203,480,208C640,213,800,267,960,277.3C1120,288,1280,256,1360,240L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
           </svg>
         </div>
+
+        <section class="cookie" style="position: fixed;">
+            <div class="txt">
+                <p class="">
+                    Ao usar Amazonia Games<br>
+                    você aceita a <a href="politicas-cookies.html" target="_blank">Política de Cookie.</a>
+                </p>
+            </div>
+            <div class="accept2">
+                <a class="accept">Aceitar</a>
+            </div>
+        </section>
         
         <!-- ATUAÇÃO GLOBAL -->
         <section id="about" class="wow cover-background quadro2" style="background-color: rgb(43, 43, 43); padding-top: 30px;">
@@ -233,8 +250,8 @@
                         <img src="/images/banner/business-about.png" alt="" class="w-100 globo" >
                     </div>
                     <div class="col-12 col-lg-6 col-md-6 padding-six-lr lg-padding-15px-lr text-center text-md-left wow fadeIn" data-wow-delay="0.2s">
-                        <h3>Global actuation<br>with localized approach</h3>
-                        <p>Our games and systems are customized for the market according to the product niche and each country or region</p>
+                        <h3>Atuação global<br> com melhor aproveitamento</h3>
+                        <p>Nossos jogos e sistemas são customizados para os mercados de acordo com o nicho de produto e de cada pais ou região</p>
 
                         <!-- <a href="#contact" class="btn btn-small btn-rounded btn-black margin-20px-top sm-margin-5px-top">Contato</a> -->
                     </div>
@@ -252,8 +269,8 @@
             <div class="container" id="games">
                 <div class="row justify-content-center" style="margin-top:0px;">
                     <div class="col-12 col-xl-10 col-md-6 margin-eight-bottom md-margin-40px-bottom sm-margin-30px-bottom text-center">
-                        <div class="alt-font  margin-15px-bottom text-uppercase text-small" style="font-size:1.2rem; color: #e2e2e2;">Our games</div>
-                        <h5 class="alt-font text-white font-weight-600 mb-0">Products created with art, usability and simplicity</h5>
+                        <div class="alt-font  margin-15px-bottom text-uppercase text-small" style="font-size:1.2rem; color: #e2e2e2;">Nossos Jogos</div>
+                        <h5 class="alt-font text-white font-weight-600 mb-0">Produtos criados com Arte, usabilidade e simplicidade</h5>
                     </div>
                 </div>
             </div>
@@ -267,15 +284,16 @@
                             <li class="grid-sizer"></li>
                             <!-- start portfolio item -->
                             <li class="grid-item wow fadeInUp">
-                               <a href="page-joker.html" target="_blank">
+                               <a href="/page-joker.html" target="_blank">
                                     <figure>
                                         <div class="portfolio-img"><img src="/images/products/chamada_amz_SITE_joker_clear.png" alt="pagina game joker"/>
                                         <figcaption>
                                             <div class="portfolio-hover-main text-center last-paragraph-no-margin">
                                                 <div class="portfolio-hover-box align-middle">
                                                     <div class="portfolio-hover-content position-relative">
+                                                      
                                                         <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-light">Joker Bingo</span>
-                                                        <p class="text-medium-gray text-uppercase text-extra-small text-center">CLASSIC VIDEO BINGO</p>
+                                                        <p class="text-medium-gray text-uppercase text-extra-small text-center">VÍDEO BINGO CLÁSSICO</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -286,7 +304,7 @@
                             <!-- end portfolio item -->
                             <!-- start portfolio item -->
                             <li class="grid-item wow fadeInUp" data-wow-delay="0.2s">
-                                <a href="page-china.html">
+                                <a href="/page-china.html">
                                     <figure>
                                         <div class="portfolio-img"><img src="/images/products/chamada_amz_SITE_china_clear.png" alt=""/></div>
                                         <figcaption>
@@ -294,7 +312,7 @@
                                                 <div class="portfolio-hover-box align-middle">
                                                     <div class="portfolio-hover-content position-relative">
                                                         <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-light">super china bingo</span>
-                                                        <p class="text-medium-gray text-uppercase text-extra-small">CLASSIC VIDEO BINGO</p>
+                                                        <p class="text-medium-gray text-uppercase text-extra-small">VÍDEO BINGO CLÁSSICO</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -305,15 +323,15 @@
                             <!-- end portfolio item -->
                             <!-- start portfolio item -->
                             <li class="grid-item wow fadeInUp" data-wow-delay="0.4s">
-                                <a href="page-lasvegas.html">
+                                <a href="/page-lasvegas.html">
                                     <figure>
                                         <div class="portfolio-img"><img src="/images/products/chamada_amz_SITE_vegas_clear.png" alt=""/></div>
                                         <figcaption>
                                             <div class="portfolio-hover-main text-center last-paragraph-no-margin">
                                                 <div class="portfolio-hover-box align-middle">
                                                     <div class="portfolio-hover-content position-relative">
-                                                        <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-light">bingo las vegas</span>
-                                                        <p class="text-medium-gray text-uppercase text-extra-small">CLASSIC VIDEO BINGO</p>
+                                                        <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-light">Las vegas bingo</span>
+                                                        <p class="text-medium-gray text-uppercase text-extra-small">VÍDEO BINGO CLÁSSICO</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -324,15 +342,15 @@
                             <!-- end portfolio item -->
                             <!-- start portfolio item -->
                             <li class="grid-item wow fadeInUp" data-wow-delay="0.6s">
-                                <a href="page-grecia.html" target="_blank">
+                                <a href="/page-grecia.html" target="_blank">
                                     <figure>
                                         <div class="portfolio-img"><img src="/images/products/chamada_amz_SITE_grecia_clear.png" alt=""/></div>
                                         <figcaption>
                                             <div class="portfolio-hover-main text-center last-paragraph-no-margin">
                                                 <div class="portfolio-hover-box align-middle">
                                                     <div class="portfolio-hover-content position-relative">
-                                                        <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-light">greece bingo</span>
-                                                        <p class="text-medium-gray text-uppercase text-extra-small">CLASSIC VIDEO BINGO</p>
+                                                        <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-light">grecia bingo</span>
+                                                        <p class="text-medium-gray text-uppercase text-extra-small">VÍDEO BINGO CLÁSSICO</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -343,7 +361,7 @@
                             <!-- end portfolio item -->
                             <!-- start portfolio-item item -->
                             <li class="grid-item wow fadeInUp ">
-                                <a href="page-aloha.html" target="_blank">
+                                <a href="/page-aloha.html">
                                     <figure>
                                         <div class="portfolio-img"><img src="/images/products/chamada_amz_SITE_aloha_clear.png" alt=""/></div>
                                         <figcaption>
@@ -351,7 +369,7 @@
                                                 <div class="portfolio-hover-box align-middle">
                                                     <div class="portfolio-hover-content position-relative">
                                                         <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-light">Aloha Bingo</span>
-                                                        <p class="text-medium-gray text-uppercase text-extra-small">CLASSIC VIDEO BINGO</p>
+                                                        <p class="text-medium-gray text-uppercase text-extra-small">VÍDEO BINGO CLÁSSICO</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -362,7 +380,7 @@
                             <!-- end portfolio item -->
                             <!-- start portfolio item -->
                             <li class="grid-item wow fadeInUp" data-wow-delay="0.2s">
-                                <a href="page-superbig.html" target="_blank">
+                                <a href="/page-superbig.html" target="_blank">
                                     <figure>
                                         <div class="portfolio-img"><img src="/images/products/chamada_amz_SITE_super_big_clear.png" alt=""/></div>
                                         <figcaption>
@@ -370,7 +388,7 @@
                                                 <div class="portfolio-hover-box align-middle">
                                                     <div class="portfolio-hover-content position-relative">
                                                         <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-light">super big bingo</span>
-                                                        <p class="text-medium-gray text-uppercase text-extra-small">LICENSED VIDEO BINGO</p>
+                                                        <p class="text-medium-gray text-uppercase text-extra-small">VÍDEO BINGO LICENCIADO</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -381,7 +399,7 @@
                             <!-- end portfolio item -->
                             <!-- start portfolio item -->
                             <li class="grid-item wow fadeInUp" data-wow-delay="0.4s">
-                                <a href="page-bigbingo.html" target="_blank">
+                                <a href="/page-bigbingo.html" target="_blank">
                                     <figure>
                                         <div class="portfolio-img"><img src="/images/products/chamada_amz_SITE_big_bingo_clear.png" alt=""/></div>
                                         <figcaption>
@@ -389,7 +407,7 @@
                                                 <div class="portfolio-hover-box align-middle">
                                                     <div class="portfolio-hover-content position-relative">
                                                         <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-light">big bingo</span>
-                                                        <p class="text-medium-gray text-uppercase text-extra-small">LICENSED VIDEO BINGO</p>
+                                                        <p class="text-medium-gray text-uppercase text-extra-small">VÍDEO BINGO LICENCIADO</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -400,15 +418,15 @@
                             <!-- end portfolio item -->
                             <!-- start portfolio item -->
                             <li class="grid-item wow fadeInUp" data-wow-delay="0.6s">
-                                <a href="page-fortuna.html" target="_blank">
+                                <a href="/page-fortuna.html" target="_blank">
                                     <figure>
                                         <div class="portfolio-img"><img src="/images/products/chamada_amz_SITE_fortuna_clear.png" alt=""/></div>
                                         <figcaption>
                                             <div class="portfolio-hover-main text-center last-paragraph-no-margin">
                                                 <div class="portfolio-hover-box align-middle">
                                                     <div class="portfolio-hover-content position-relative">
-                                                        <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-light">FORTUNE BINGO</span>
-                                                        <p class="text-medium-gray text-uppercase text-extra-small text-center">CLASSIC VIDEO BINGO</p>
+                                                        <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-light">FORTUNA BINGO</span>
+                                                        <p class="text-medium-gray text-uppercase text-extra-small text-center">VÍDEO BINGO CLÁSSICO</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -419,7 +437,7 @@
                             <!-- end portfolio item -->
                              <!-- start portfolio item -->
                              <li class="grid-item wow fadeInUp" data-wow-delay="0.6s">
-                                <a href="page-mega.html" target="_blank">
+                                <a href="/page-mega.html" target="_blank">
                                     <figure>
                                         <div class="portfolio-img"><img src="/images/products/chamada_amz_SITE_mega_bingo_clear.png" alt=""/></div>
                                         <figcaption>
@@ -427,7 +445,7 @@
                                                 <div class="portfolio-hover-box align-middle">
                                                     <div class="portfolio-hover-content position-relative">
                                                         <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-light">mega bingo</span>
-                                                        <p class="text-medium-gray text-uppercase text-extra-small text-center">CLASSIC VIDEO BINGO</p>
+                                                        <p class="text-medium-gray text-uppercase text-extra-small text-center">VÍDEO BINGO CLÁSSICO</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -438,15 +456,15 @@
                             <!-- end portfolio item -->
                              <!-- start portfolio item -->
                              <li class="grid-item wow fadeInUp" data-wow-delay="0.6s">
-                                <a href="page-golden.html" target="_blank">
+                                <a href="/page-golden.html" target="_blank">
                                     <figure>
                                         <div class="portfolio-img"><img src="/images/products/chamada_amz_SITE_premio_clear.png" alt=""/></div>
                                         <figcaption>
                                             <div class="portfolio-hover-main text-center last-paragraph-no-margin">
                                                 <div class="portfolio-hover-box align-middle">
                                                     <div class="portfolio-hover-content position-relative">
-                                                        <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-light">Golden Award</span>
-                                                        <p class="text-medium-gray text-uppercase text-extra-small text-center">LICENSED VIDEO BINGO</p>
+                                                        <span class="font-weight-600 alt-font text-uppercase margin-one-bottom d-block text-light">Golden Prêmio</span>
+                                                        <p class="text-medium-gray text-uppercase text-extra-small text-center">VÍDEO BINGO LICENCIADO</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -471,9 +489,8 @@
                 <div class="row align-items-center">
                     <!-- box-esq -->
                     <div class="col-12 col-xl-6 col-lg-5 col-md-12 padding-eight-right text-center text-lg-left lg-padding-five-right md-padding-fifteen-lr md-margin-80px-bottom sm-padding-15px-lr sm-margin-50px-bottom wow fadeIn box-esq" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
-                        <div style="font-size:1.2rem" class="alt-font text-medium-gray margin-15px-bottom text-uppercase text-small">STATE-OF-THE-ART TECHNOLOGY STACK</div>
-                        <h3 class="font-weight-600 alt-font text-extra-dark-gray margin-35px-bottom sm-margin-25px-bottom">Innovative platform architecture
-                        </h3>
+                        <div style="font-size:1.2rem" class="alt-font text-medium-gray margin-15px-bottom text-uppercase text-small">Stack Tecnológico de ponta</div>
+                        <h3 class="font-weight-600 alt-font text-extra-dark-gray margin-35px-bottom sm-margin-25px-bottom">Arquitetura de plataforma inovadora</h3>
                         
                         <!-- <div class="topic">
                             <ul style="margin-left: -20px">
@@ -484,7 +501,6 @@
                         </div> -->
                         <!-- aaa -->
                         <!-- <a href="#contact" class="btn btn-small btn-rounded btn-transparent-dark-gray margin-10px-top">Contato</a> -->
-
                     </div>
                     <div class="col-12 col-xl-6 col-lg-7 col-md-12 box-dir">
                         <div class="row">
@@ -559,7 +575,7 @@
                                                 <path d="m14.12 10.163 1.715.858c.22.11.22.424 0 .534L8.267 15.34a.598.598 0 0 1-.534 0L.165 11.555a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.66zM7.733.063a.598.598 0 0 1 .534 0l7.568 3.784a.3.3 0 0 1 0 .535L8.267 8.165a.598.598 0 0 1-.534 0L.165 4.382a.299.299 0 0 1 0-.535L7.733.063z"></path>
                                                 <path d="m14.12 6.576 1.715.858c.22.11.22.424 0 .534l-7.568 3.784a.598.598 0 0 1-.534 0L.165 7.968a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.659z"></path>
                                               </svg>                              
-                                            <div class="alt-font text-medium text-extra-dark-gray margin-10px-bottom md-margin-5px-bottom font-weight-700">PLATFORMS</div>
+                                            <div class="alt-font text-medium text-extra-dark-gray margin-10px-bottom md-margin-5px-bottom font-weight-700">Plataformas</div>
                                             <ul>
                                                 <li><p id="msg1" style="font-weight: 300; color: black;">Ios</p></li>
                                                 <li><p id="msg2" style="font-weight: 300;">Android</p></li>
@@ -597,7 +613,7 @@
                                               </svg>
                                                                         
                                             <div class="alt-font text-medium text-extra-dark-gray margin-10px-bottom md-margin-5px-bottom font-weight-700">Web</div>
-                                            <p id="msg7" style="font-weight: 300;">HTML5 responsive</p>
+                                            <p id="msg7" style="font-weight: 300;">HTML5 responsivo</p>
                                             <div class="feature-box-overlay bg-green"></div>
                                         </div>
                                     </div>
@@ -608,8 +624,8 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="text-green icon-large margin-25px-bottom bi bi-phone-flip" viewBox="0 0 16 16" id="icone4">
                                                 <path fill-rule="evenodd" d="M11 1H5a1 1 0 0 0-1 1v6a.5.5 0 0 1-1 0V2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v6a.5.5 0 0 1-1 0V2a1 1 0 0 0-1-1Zm1 13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-2a.5.5 0 0 0-1 0v2a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-2a.5.5 0 0 0-1 0v2ZM1.713 7.954a.5.5 0 1 0-.419-.908c-.347.16-.654.348-.882.57C.184 7.842 0 8.139 0 8.5c0 .546.408.94.823 1.201.44.278 1.043.51 1.745.696C3.978 10.773 5.898 11 8 11c.099 0 .197 0 .294-.002l-1.148 1.148a.5.5 0 0 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2a.5.5 0 1 0-.708.708l1.145 1.144L8 10c-2.04 0-3.87-.221-5.174-.569-.656-.175-1.151-.374-1.47-.575C1.012 8.639 1 8.506 1 8.5c0-.003 0-.059.112-.17.115-.112.31-.242.6-.376Zm12.993-.908a.5.5 0 0 0-.419.908c.292.134.486.264.6.377.113.11.113.166.113.169 0 .003 0 .065-.13.187-.132.122-.352.26-.677.4-.645.28-1.596.523-2.763.687a.5.5 0 0 0 .14.99c1.212-.17 2.26-.43 3.02-.758.38-.164.713-.357.96-.587.246-.229.45-.537.45-.919 0-.362-.184-.66-.412-.883-.228-.223-.535-.411-.882-.571ZM7.5 2a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1Z"></path>
                                               </svg>                              
-                                            <div class="alt-font text-medium text-extra-dark-gray margin-10px-bottom md-margin-5px-bottom font-weight-700">Full responsive</div>
-                                            <p id="msg8">portrait and landscape</p>
+                                            <div class="alt-font text-medium text-extra-dark-gray margin-10px-bottom md-margin-5px-bottom font-weight-700">Todo responsivo</div>
+                                            <p id="msg8">retrato e paisagem</p>
                                             <div class="feature-box-overlay bg-green"></div>
                                         </div>
                                     </div>
@@ -632,11 +648,8 @@
             <div class="container ">
                      <div class="row justify-content-center" style="justify-content:center;">
                          <div style="justify-content:center;" class="col-12 col-xl-10 col-md-6 margin-eight-bottom md-margin-40px-bottom sm-margin-30px-bottom text-center">
-                             <div class="alt-font text-dark margin-15px-bottom text-uppercase text-small titulo">MAXIMUM CUSTOMER EXPERIENCE
-                            </div>
-                             <p class="alt-font mb-0 subtitulo text-center text-dark">Our products are intelligently designed and integrated<br> to provide more enriching user journey.
-
-                            </p>
+                             <div class="alt-font text-dark margin-15px-bottom text-uppercase text-small titulo">Máxima experiência ao cliente</div>
+                             <p class="alt-font mb-0 subtitulo text-center text-dark">Nossos produtos são criados de forma inteligente e integrada  <br>para oferecer uma jornada mais enriquecida aos usuários.</p>
                          </div>
                      </div>
                      
@@ -645,9 +658,8 @@
                          <div class="col-12 col-lg-4 col-md-4 sm-margin-30px-bottom wow fadeIn " >
                              <div class="bg-light-gray text-center border-radius-10  position-relative lg-padding-twelve-all quadradinho" style="padding-bottom:66px;">
                                  <h4 class="text-light-gray text-white alt-font font-weight-300 margin-20px-bottom"></h4>
-                                 <div class="alt-font margin-10px-bottom md-margin-5px-bottom titulo2" style="margin-bottom:22px; color:black;">Customized Apps
-                                </div>
-                                 <p  style="margin-bottom:50px; font-size: 1.3rem;">Delivery of applications and customized systems for software or hardware solutions. </p>
+                                 <div class="alt-font margin-10px-bottom md-margin-5px-bottom titulo2" style="margin-bottom:22px; color:black;">Aplicativos Customizados</div>
+                                 <p  style="margin-bottom:50px; font-size: 1.3rem;">Entrega de aplicativos e sistemas customizados para soluções em software ou hardware.</p>
                                  <!--<a href="#" class="btn btn-link text-extra-dark-gray text-deep-pink-hover btn-medium">view more</a>-->
                              </div>
                          </div>
@@ -656,9 +668,8 @@
                          <div class="col-12 col-lg-4 col-md-4 sm-margin-30px-bottom wow fadeIn" data-wow-delay="0.2s">
                              <div class="bg-light-gray text-center border-radius-10  position-relative lg-padding-twelve-all quadradinho">
                                  <h4 class="text-light-gray text-white alt-font font-weight-300 margin-20px-bottom"></h4>
-                                 <div class="alt-font  margin-10px-bottom md-margin-5px-bottom titulo2" style="margin-bottom:22px; color:black;">Marketing Tools
-                                </div>
-                                 <p style=" font-size: 1.3rem;">Product production, launch and operation. We use growth and branding techniques for lead generation and conversion.</p>
+                                 <div class="alt-font  margin-10px-bottom md-margin-5px-bottom titulo2" style="margin-bottom:22px; color:black;">Ferramentas de Marketing</div>
+                                 <p style=" font-size: 1.3rem;">Produção, lançamento e operação de produtos. Utilizamos técnicas de growth e branding para geração e conversão de leads</p>
                                  <!--<a href="#" class="btn btn-link text-extra-dark-gray text-deep-pink-hover btn-medium">view more</a>-->
                              </div> 
                          </div>
@@ -668,9 +679,8 @@
                          <div class="col-12 col-lg-4 col-md-4 sm-margin-30px-bottom wow fadeIn" data-wow-delay="0.2s">
                             <div class="bg-light-gray text-center border-radius-10  position-relative lg-padding-twelve-all quadradinho">
                                 <h4 class="text-light-gray text-white alt-font font-weight-300 margin-20px-bottom"></h4>
-                                <div class="alt-font  margin-10px-bottom md-margin-5px-bottom titulo2" style="margin-bottom:22px; color:black;">Full Support
-                                </div>
-                                <p style=" font-size: 1.3rem;">We offer personalized multi-language technical and commercial support</p>
+                                <div class="alt-font  margin-10px-bottom md-margin-5px-bottom titulo2" style="margin-bottom:22px; color:black;">Suporte Completo</div>
+                                <p style=" font-size: 1.3rem;">Oferecemos suporte técnico e comercial personalizado multi-idiomas</p>
                                 <!--<a href="#" class="btn btn-link text-extra-dark-gray text-deep-pink-hover btn-medium">view more</a>-->
                             </div> 
                         </div>
@@ -680,14 +690,15 @@
                                  <p style="margin-bottom:4px; font-size: 1.3rem;">Oferecemos suporte técnico e comercial personalizado multi-idiomas</p>-->
                          
                          <div class="crm">
-                            <div class="alt-font margin-15px-bottom text-uppercase" style="font-size:1.5rem; color: black;">POWERFUL BACKOFFICE SYSTEM</div>
-                            <h5 class="alt-font mb-0 subcrm">We manage a company's human resources, technologies and <br>services, supporting and working to meet objectives.<br></h5>
+                            <div class="alt-font margin-15px-bottom text-uppercase" style="font-size:1.5rem; color: black;">PODEROSO SISTEMA BACKOFFICE</div>
+                            <h5 class="alt-font mb-0 subcrm">A nossa plataforma de jogos gere a compra de um sistema integrado de back office.<br> Com essa ferramenta de Negócios e BI, somos capazes de gerir jogos, configurações,<Br> clientes, bónus, ferramentas promocionais, jackpots e também dados estratégicos.<br></h5>
                         </div>
                      </div>
                  </div>
          </section>
-        
-        <section class="p-0 wow fadeIn quadro6">
+
+        <!-- PARCEIROS = GLOBO MUNDO -->
+        <section class="p-0 wow quadro6">
     
             <div class="container-fluid cover-background banner-globe" style="background-image:url('/images/banner/world_banner_dark_white.jpg'); height: 1080px;">
                 <div class="row">
@@ -695,42 +706,46 @@
                         <!-- <div id="map"></div> -->
                     </div>
 
+                    
 
                     <div class="col-12 col-xl-5 col-lg-6 padding-eight-half-all lg-padding-seven-all wow fadeInRight solucao">
-                        <h4 class="alt-font font-weight-600 margin-45px-bottom md-margin-25px-bottom sm-margin-20px-bottom ">Strategic partners & Distributors</h4>
-                        <p class="margin-35px-bottom md-margin-25px-bottom sm-width-100">Through a licensed globally distribution network, our games reach multiple websites worldwide</p>
+                        <h4 class="alt-font font-weight-600 margin-45px-bottom md-margin-25px-bottom sm-margin-20px-bottom ">Parceiros e distribuidores estratégicos</h4>
+                        <p class="margin-35px-bottom md-margin-25px-bottom sm-width-100">Através de rede de distribuição lincenciada globalmente, nossos jogos chegam a vários sites no mundo todo</p>
                         <ul class="list-style-12 margin-35px-top">
-                            <li>Seeking continuous LTV increase</li>
-                            <li>Customer base with high NPS score</li>
-                            <li>Increasing Retention and decreasing Churn</li>
+                            <li>Buscando o aumento contínuo de LTV</li>
+                            <li>Base de clientes com alta nota NPS</li>
+                            <li>Aumentando a retenção e diminuindo Churn </li>
                             <div class="crm2">
-                                <div class="alt-font margin-15px-bottom text-uppercase" style=" font-size:1.5rem; color: black;">Our team</div>
-                                <h5 class="alt-font mb-0 subcrm2">We have a large track recording on this business with a worldwide specialized and innovator team.<br></h5>
+                                <div class="alt-font margin-15px-bottom text-uppercase" style=" font-size:1.5rem; color: black;">Nosso time</div>
+                                <h5 class="alt-font mb-0 subcrm2">Temos um grande histórico neste negócio com uma equipe especializada e inovadora em todo o mundo.<br></h5>
                             </div>
                         </ul>
                         <!-- <a href="#contact" class="btn btn-small btn-rounded btn-dark-gray margin-40px-top sm-margin-25px-top">Contato</a> -->
                     </div>
+                    
                 </div>
             </div>
+            
         </section>
 
-        <section id="distribution" class="wow fadeIn quadro7">
+        <!-- DIFERENCIAIS = COMENTÁRIOS -->
+        <section id="distribution" class="wow quadro7">
             <div class="container"> 
                 <div class="row align-items-center">
                     <!-- box-esq -->
                     <div class="col-12 col-xl-6 col-lg-5 col-md-12 padding-eight-right text-center text-lg-left lg-padding-five-right md-padding-fifteen-lr md-margin-80px-bottom sm-padding-15px-lr sm-margin-50px-bottom wow fadeIn box-esq2" data-wow-delay="0.2s">
                         <!-- <div style="font-size:1.2rem" class="alt-font text-medium-gray margin-15px-bottom text-uppercase text-small">Stack Tecnológico de ponta</div> -->
-                        <h3 class="font-weight-600 alt-font text-extra-dark-gray margin-35px-bottom sm-margin-25px-bottom">Our business differentials</h3>
+                        <h3 class="font-weight-600 alt-font text-extra-dark-gray margin-35px-bottom sm-margin-25px-bottom">Diferenciais do nosso negócio</h3>
                         
                         <div class="topic">
                             <ul class="list-style-12 margin-35px-top">
-                                <li>Multiple tested, proven and approved maths</li>
-                                <li>Game mechanics, bonuses, awards and recognitions</li>
-                                <li>Tropicalized theme</li>
-                                <li>New, validated and known games</li>
-                                <li>Individual and group jackpots</li>
-                                <li>Complementary product line</li>
-                                <li>Flexibility for exclusive on-demand games</li>
+                                <li>Multiplas matemáticas testadas, comprovadas e homologadas</li>
+                                <li>Mecânica de jogo, bônus, prêmios e reconhecimentos</li>
+                                <li>Flexiblidade para jogos exclusivos sob demanda</li>
+                                <li>Jogos reconhecidos, licenciados e novos</li>
+                                <li>Linha de produtos complementares</li>
+                                <li>Jackpots individuais e por grupos</li>
+                                <li>Temática tropicalizada</li>
                             </ul>
                         </div>
                         <!-- aaa -->
@@ -746,86 +761,87 @@
             </div>
         </section>
 
-
-        <!-- end teamwork section -->
         
         <!-- start footer --> 
         <div class="container-footer">
             <footer id="contact" class="footer-strip-dark lg-padding-70px-tb md-padding-50px-tb sm-padding-40px-tb">
                 <div class="row justify-content-center text-center mb-2 ">
                     <div class="col-md-12 titulo-info">
-                        <h2 class="warning_footer">Compliance is key in this business, so we responsibly<br> handle all legal aspects for our company. </h2>
+                        <h2 class="warning_footer">O compliance é fundamental neste negócio, e de forma responsável<br> nós tratamos de todos os aspectos legais para a nossa empresa.
                     </div>
                 </div> 
+
                 <div class="row align-items-md-start justify-content-center lei">
                     <!-- start logo -->
                     <div class="sm-margin-30px-bottom sm-text-center box-info">
                         <div class="row justify-content-center">
-                            
-                            <h5 class="margin-5px-bottom margin-15px-top text-light-gray">LICENSE</h5>
+                            <h5 class="margin-5px-bottom margin-15px-top text-light-gray">LICENÇAS</h5>
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-journal-check text-white leis-icon" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M10.854 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 8.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
                                 <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
                                 <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
                             </svg>
                         </div>
-
                         <div class="info1">
-                            <span class="mb-0 text-light-gray">Amazonia Games is working to become authorized and regulated by the various jurisdictions to satisfy regulatory requirements.</span>
+                            <span class="mb-0 text-light-gray">Estamos trabalhando para obter diversas autorizações em várias jurisdições regulamentadas mundialmente para satisfazer os requisitos regulatórios de cada mercado.</span>
                         </div>
                     </div>
+
                     <div class="sm-margin-30px-bottom sm-text-center box-info">
                         <div class="row justify-content-center">
-                            <h5 class="margin-5px-bottom margin-15px-top text-light-gray">CERTIFICATES</h5>
-                       
+                            <h5 class="margin-5px-bottom margin-15px-top text-light-gray">CERTIFICADOS</h5>
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bookmark-check leis-icon text-white" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
                                 <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
                               </svg>
                         </div>
-
                         <div class="info1">
-                            <span class="mb-0 text-light-gray">Amazonia Games and it products are being validated and certified by international accreditation organizations.</span>
+                            <span class="mb-0 text-light-gray">A Amazonia Games e os seus produtos estão sendo validados e certificados por organizações internacionais de acreditação.</span>
                         </div>
                     </div>
+
                     <div class="sm-margin-30px-bottom sm-text-center box-info">
-                       <div class="row justify-content-center">
-                            <h5 class="margin-5px-bottom margin-15px-top text-light-gray">SAFETY GAME</h5>
+                        <div class="row justify-content-center">
+                            <h5 class="margin-5px-bottom margin-15px-top text-light-gray">JOGO SEGURO</h5>
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-patch-check leis-icon text-white" viewBox="0 0 16 16">
                                 <path d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.057.218.095.293.118a.55.55 0 0 0 .101.025.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z"/>
                                 <path d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
                               </svg>
                         </div>
-
                         <div class="info1">
-                            <span class="mb-0 text-light-gray">As a responsible game developer, Amazônia Games strictly adheres to social responsibility.</span>
+                            <span class="mb-0 text-light-gray">Como responsável no desenvolvimento de jogos, a Amazonia Games adere estritamente à responsabilidade social.</span>
                         </div>
                     </div>
+
                     <div class="sm-margin-30px-bottom sm-text-center box-info">
                         <div class="row justify-content-center">
-                            <h5 class="margin-5px-bottom margin-15px-top text-light-gray">AWARDS</h5>
+                            <h5 class="margin-5px-bottom margin-15px-top text-light-gray">PRÊMIOS</h5>
                               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi leis-icon text-white" viewBox="0 0 16 16">
                                 <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z"/>
                                 <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
                               </svg>
                         </div>
                         <div class="info1">
-                            <span class="mb-0 text-light-gray">We are working hard to compete for the 2018 Best Technology/ Platform Provider award.</span>
+                            <span class="mb-0 text-light-gray">Estamos trabalhando para disputarmos o prêmio de Melhor Fornecedor Tecnológico/ Plataforma de 2023.</span>
                         </div>
                     </div>
-
-                    <div class="row justify-content-center text-center mb-2 ">
-                        <div class="col-md-12 titulo-info2" style="
-                        margin: 50px 0px 0px 30px;">
-                            <h2 class="warning_footer"> As a b2b software provider, Amazonia Games does not interact directly with players, however, we believe <br>it is our duty to provide operators with quality, certified games so they can perform the best experience and security for their customers.</h2>
-                        </div>
-                    </div> 
                     
                 </div>
-                <div class="row align-items-md-start justify-content-center margin-100px-top">
+
+                <div class="row justify-content-center text-center mb-2 ">
+                    <div class="col-md-12 titulo-info2" style="
+                    margin: 50px 0px 0px 30px;">
+                        <h2 class="warning_footer">Como fornecedor de software b2b, a Amazonia Games não interage diretamente com os jogadores, porém, acreditamos<br> ser nosso dever fornecer às operadoras jogos de qualidade e certificados, para que possam oferecer a melhor experiência e segurança aos seus clientes.</h2>
+                    </div>
+                    <div class="col-md-12 titulo-info3" style="margin: 50px 0px 0px 0px">
+                        <h2 class="warning_footer"><a href="politicas-privacidade.html">POLÍTICA DE PRIVACIDADE</a></h2>
+                    </div>
+                </div> 
+
+                <div class="row align-items-md-start justify-content-center margin-30px-top">
                     <!-- start logo -->
                     <div class="col-lg-3 md-margin-50px-bottom sm-margin-30px-bottom text-center" style="padding:0px;">
-                        <a href="/en/index.html"><img class="footer-logo" src="/images/logos/logo_amg3_verde.png" data-rjs="/images/logo-white@2x.png" alt="Logo" style="margin-bottom: 25px; width: 300px;" ></a>
+                        <a href="index.html"><img class="footer-logo" src="/images/logos/logo_amg3_verde.png" data-rjs="/images/logo-white@2x.png" alt="Logo" style="margin-bottom: 25px; width: 300px;" ></a>
                         <!-- <div class="medias">
                         <a href="https://www.facebook.com/Amazonia-Studio-108128804382800" title="Facebook" target="_blank"><i class="fab fa-facebook-f fa-2x" aria-hidden="true"></i></a>
                         <a href="https://www.instagram.com/amazoniastudios/" title="Instagram" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>    
@@ -839,7 +855,7 @@
                         <div class="trabalho">
                             <!-- <h5 class="margin-5px-bottom margin-15px-top text-light-gray">Venha fazer parte de nossa equipe</h5>
                             <span class="text-medium">Nós estamos sempre buscando pessoas alinhadas com nossa cultura e empresa.</span> -->
-                            <h5 class="mb-0 text-light-gray">Contact</h5>
+                            <h5 class="mb-0 text-light-gray">Contato</h5>
                             <a href="mailto:info@amazoniastudio.com">info@amazoniagames.com</a>
                         </div>
                     </div>
@@ -850,9 +866,9 @@
                 
                 <div class="row justify-content-center text-center mb-2 ">
                     <div class="col-md-12 aviso">
-                        <h2 class="warning_footer">Alert</h2>
+                        <h2 class="warning_footer">Aviso</h2>
                             <ul>
-                                <li><span>The games and content are intended for an adult audience.</span></li>
+                                <li><span>Os jogos e os conteúdos são destinados ao público adulto.</span></li>
                                 <!-- <li><span>- The games do not offer opportunities with real money and opportunities to earn real money or prizes.</span>
                                 <li><span>- Wins made while gambling in social casino games can't be exchanged into real money or real rewards.</span>
                                 <li><span>- The practice of success in social casino games does not imply future success in games of chance with real money.</span>
@@ -877,11 +893,11 @@
                             <span> | </span>
                             <a href="responsible-game.html">Jogo Responsável</a>
                             <span> | </span>
-                            <a href="/index.html#contact">Perguntas Frequentes</a>
+                            <a href="index.html#contact">Perguntas Frequentes</a>
                     </div> -->
                     <div class="col-md-12">
                         <div class="copy-right">
-                            <h5>2021 &copy Amazonia Games. All rights reserved.</h5>
+                            <h5>2021 &copy Amazonia Games. Todos os direitos reservados.</h5>
                         </div>
                     </div>
                 </div>
@@ -935,8 +951,8 @@
         <!-- retina -->
         <script type="text/javascript" src="/js/retina.min.js"></script>
         <!-- revolution -->
-        <script type="text/javascript" src="/revolution/js/jquery.themepunch.tools.min.js"></script>
-        <script type="text/javascript" src="/revolution/js/jquery.themepunch.revolution.min.js"></script>
+        <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
+        <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
         <!-- revolution slider extensions (load below extensions JS files only on local file systems to make the slider work! The following part can be removed on server for on demand loading) -->
         <!--<script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
         <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
