@@ -9,6 +9,9 @@
 	left: 5%;
 	padding: 10px 20px;
 }
+.cookie:hover{
+  background-color: rgb(243, 243, 243);
+}
 .cookie .txt{
 	float: left;
   width: 65%;
@@ -37,5 +40,5 @@
   margin-top: 12px;
 }
 .cookie .accept:hover {
-	background-color: #30b867;
+	background-color: #2cac5f;
 }

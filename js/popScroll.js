@@ -2,7 +2,11 @@ function mostrarPopUp()
 {
   mostrarPop = true;
   mostrarPop = localStorage.getItem("mostrarPop");
-  if (mostrarPop)
+  mostrarCookie = localStorage.getItem("mostrarCookie");
+  console.log("cookie está: " + mostrarCookie);
+  console.log("mostrarPop está: " + mostrarPop);
+  // mostrarPop = true = nao aparecer
+  if (mostrarPop && mostrarCookie)
   {
     
   }else
@@ -13,11 +17,16 @@ function mostrarPopUp()
   }
 }
 
-var mostrarPop = respostaPopUp;
 function aceitarPopup(respostaPopUp)
 {
+  console.log("mostrarPop agora é " + mostrarPop)
   mostrarPop = respostaPopUp;
-  localStorage.setItem("mostrarPop",false);
+  localStorage.setItem("mostrarPop",true);
+  mostrarCookie = localStorage.getItem("mostrarCookie");
+  if (mostrarCookie)
+  {
+    localStorage.setItem("mostrarPop",true);
+  }
   return mostrarPop;
 }
 

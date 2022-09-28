@@ -6,11 +6,11 @@
     .quadro2 p, .quadro3 p{font-size: 1.2rem !important}
     .titulo{font-size:2.3rem !important}
     .quadro3 .bg-white{padding:30px 15px 10px 15px !important; margin:0px 40px 0px 40px;}
-    .quadro4 h5{margin-top: 80px; font-size: 2rem !important; line-height: 30px !important;}
+    .quadro4 h5{margin-top: 10px; font-size: 2rem !important; line-height: 30px !important;}
     .portfolio-grid{max-width: 100%;}
     .quadro5 .feature-box-18 {margin: 0px 50px 0px 50px; padding: 20px 0px 20px 0px;}
     .quadro5 .box-esq h3{text-align: center!important;}
-    .quadro5{padding-top: 70px !important;}
+    .quadro5{padding-top: 70px !important; padding-bottom: 50px !important;}
     .subcrm{font-size: 1.2rem !important; line-height: 30px !important; margin: 20px;}
     /* .solucao h4{font-size: 2.3rem !important; text-align: center !important;}
     .solucao p, li{font-size: 1.2rem !important;} */
@@ -53,6 +53,16 @@
         font-family: Font Awesome\ 5 Free;
         font-weight: 900;
     }
+    .swiper-slide .alt-font{margin-top: 150px !important;}
+    .swiper-slide{margin-top: -100px !important;height: 750px !important;}
+    .wave-topo{visibility: hidden !important;}
+    .quadro2 p{margin-bottom: 50px;}
+    .wave-arquitetura{margin-top: -70px !important; z-index: -1 !important;}
+    .quadro3 .titulo{padding-top: 0px !important;}
+    .quadradinho{width: auto !important; height: 300px !important; margin: 0px 30px 0px 30px;}
+    .crm{padding-top: 50px !important;}
+    .crm2, .subcrm2{padding: 0px !important; margin-bottom: 100px !important;}
+    .quadro{padding-top: 0px !important;}
 }
 /* RESPONSIVO MOBILE DEITADO */
 @media only screen and (max-width: 916px) and (max-height: 416px){

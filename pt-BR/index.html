@@ -70,7 +70,7 @@
 
     </head>
     <!-- <body> -->
-    <body onload="mostrarPopUp();disableScroll();">
+    <body onload="mostrarPopUp();disableScroll(); mostrarCookies()">
 
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TS56P7J"
@@ -106,7 +106,7 @@
                     </div>
                     <!-- Modal footer -->
                     <div class="flex items-center p-6 space-x-2 rounded-b border-t border-gray-200 dark:border-gray-600">
-                        <button data-modal-toggle="defaultModal" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onclick="enableScroll();  aceitarPopup(false);" style="background-color: #79C000;">Sou maior de idade</button>
+                        <button data-modal-toggle="defaultModal" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onclick="enableScroll();  aceitarPopup(true);" style="background-color: #79C000;">Sou maior de idade</button>
                         <button data-modal-toggle="defaultModal" type="button" class="text-light hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600" onclick="encaminharSite()" style="background-color: #fc4040;">Sou menor de idade</button>
                     </div>
                 </div>
@@ -230,17 +230,21 @@
           </svg>
         </div>
 
-        <section class="cookie" style="position: fixed;">
-            <div class="txt">
-                <p class="">
-                    Ao usar Amazonia Games<br>
-                    você aceita a <a href="politicas-cookies.html" target="_blank">Política de Cookie.</a>
-                </p>
-            </div>
-            <div class="accept2">
-                <a class="accept">Aceitar</a>
-            </div>
-        </section>
+         <!------ Include the above in your HEAD tag ---------->
+ 
+         <div id="cookies" hidden>
+            <section class="cookie" style="position: fixed;" id="btn-aceitar-cookie">
+                <div class="txt">
+                    <p id="btn-aceitar-cookie2">
+                        Be using Amazonia Games<br>
+                        you agree to our  <a href="/policy-cookies.html" target="_blanck" id="btn-aceitar-cookie3">Cookie Policy.</a>
+                    </p>
+                </div>
+                <div class="accept2">
+                    <a class="accept" onclick="aceitarCookies(true)" id="btn-aceitar-cookie4">Accept</a>
+                </div>
+            </section>
+        </div>
         
         <!-- ATUAÇÃO GLOBAL -->
         <section id="about" class="wow cover-background quadro2" style="background-color: rgb(43, 43, 43); padding-top: 30px;">
@@ -482,7 +486,7 @@
         <!-- aqui tambem -->
         <!-- ARQUITETURA -->
         <section id="distribution" class="wow fadeIn quadro5" style="visibility: visible; animation-name: fadeIn;">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="margin-top:-50px">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="margin-top:-50px"class="wave-arquitetura">
                 <path fill="#2b2b2b" fill-opacity="1" d="M0,96L60,90.7C120,85,240,75,360,85.3C480,96,600,128,720,133.3C840,139,960,117,1080,112C1200,107,1320,117,1380,122.7L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
               </svg>
             <div class="container"> 
@@ -754,7 +758,7 @@
                     <div class="col-12 col-xl-6 col-lg-7col-md-12 fadeInRight">
                         <!-- <h4 class="alt-font font-weight-600 md-margin-25px-bottom sm-margin-20px-bottom ">Parceiros e distribuidores estratégicos</h4> -->
                         <div class="row justify-content-end">
-                            <img src="/images/banner/comentarios4.jpg" alt="" >
+                            <img src="/images/banner/comentarios44.jpg" alt="" >
                         </div>
                     </div>
                 </div>
