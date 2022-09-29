@@ -25,7 +25,7 @@
   font-size: 1.1rem;
 }
 .cookie .accept {
-  background-color: #40CC79;
+  background-color: #7ac000;
   color: #fff !important;
   border-radius: 32px;
   padding: 10px 23px 10px 23px;
@@ -40,5 +40,5 @@
   margin-top: 12px;
 }
 .cookie .accept:hover {
-	background-color: #2cac5f;
+	background-color: #6caa01;
 }

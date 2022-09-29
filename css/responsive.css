@@ -32,7 +32,7 @@
         background-color: white !important;
         color: white !important;
         background-blend-mode:lighten;
-        height: 700px !important;
+        height: 800px !important;
     }
     .solucao p, .solucao ul li{
         padding-left: 0px !important;
@@ -54,7 +54,7 @@
         font-weight: 900;
     }
     .swiper-slide .alt-font{margin-top: 150px !important;}
-    .swiper-slide{margin-top: -100px !important;height: 750px !important;}
+    .swiper-slide{margin-top: -100px !important; height: 400px !important;}
     .wave-topo{visibility: hidden !important;}
     .quadro2 p{margin-bottom: 50px;}
     .wave-arquitetura{margin-top: -70px !important; z-index: -1 !important;}
@@ -63,6 +63,17 @@
     .crm{padding-top: 50px !important;}
     .crm2, .subcrm2{padding: 0px !important; margin-bottom: 100px !important;}
     .quadro{padding-top: 0px !important;}
+    .game-page ul, .game-page li {padding: 0px !important; font-size: 1.5rem !important; margin-top: 150px !important;}
+    .slider-text-middle .alt-font{margin-top: 10px !important; padding: 0px !important;}
+    nav.navbar .container-fluid {flex-wrap: nowrap !important;}
+    nav.navbar.bootsnav .navbar-toggler {justify-content: end !important;color: red !important;margin-right: -380px !important;}
+    .accordion-menu{padding: 0px !important;}
+    .list-style-12 li, .list-style-12 ul{text-align: start !important;padding-left: 0px !important;}
+    .quadro3{padding-top: 50px !important;}
+    .quadro6 .fadeInLeft{height: 350px !important;}
+    .crm2{margin-top: 70px !important;}
+    .crm{padding:20px !important}
+    .crm h5{text-align:justify !important;}
 }
 /* RESPONSIVO MOBILE DEITADO */
 @media only screen and (max-width: 916px) and (max-height: 416px){
