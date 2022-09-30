@@ -11,7 +11,7 @@
     .quadro5 .feature-box-18 {margin: 0px 50px 0px 50px; padding: 20px 0px 20px 0px;}
     .quadro5 .box-esq h3{text-align: center!important;}
     .quadro5{padding-top: 70px !important; padding-bottom: 50px !important;}
-    .subcrm{font-size: 1.2rem !important; line-height: 30px !important; margin: 20px;}
+    .subcrm{font-size: 1.2rem !important; line-height: 30px !important; margin: 15px;}
     /* .solucao h4{font-size: 2.3rem !important; text-align: center !important;}
     .solucao p, li{font-size: 1.2rem !important;} */
     .aviso, .trabalho{margin: -15px 0px 0px 0px !important;padding: 0px !important;}
@@ -27,7 +27,7 @@
         margin-right: -20px;
         padding-right: 15px !important;
     }
-    .solucao ul li{padding-right: 30px !important;}
+    .solucao ul li{padding-right: 15px !important;}
     .banner-globe{
         background-color: white !important;
         color: white !important;
@@ -37,12 +37,13 @@
     .solucao p, .solucao ul li{
         padding-left: 0px !important;
         font-size: 1.3rem !important;
+        margin-right: 0px !important;
     }
     .solucao h4{
         padding-right: 15px !important;
         text-align: end;
         margin-top: -300px !important;
-        font-size: 2.1rem !important;
+        font-size: 2.5rem !important;
         line-height: 30px !important;
     }
     .list-style-12 li:before {
@@ -53,27 +54,45 @@
         font-family: Font Awesome\ 5 Free;
         font-weight: 900;
     }
-    .swiper-slide .alt-font{margin-top: 150px !important;}
-    .swiper-slide{margin-top: -100px !important; height: 400px !important;}
+    .swiper-slide{margin-top: 0px !important; height: 500px !important; margin-bottom: -75px !important;}
     .wave-topo{visibility: hidden !important;}
     .quadro2 p{margin-bottom: 50px;}
     .wave-arquitetura{margin-top: -70px !important; z-index: -1 !important;}
-    .quadro3 .titulo{padding-top: 0px !important;}
+    .quadro3 .titulo{padding-top: 0px !important; font-size: 2.5rem !important; line-height: 40px !important;}
     .quadradinho{width: auto !important; height: 300px !important; margin: 0px 30px 0px 30px;}
-    .crm{padding-top: 50px !important;}
+    .crm{padding: 20px 15px 20px 15px !important;}
     .crm2, .subcrm2{padding: 0px !important; margin-bottom: 100px !important;}
     .quadro{padding-top: 0px !important;}
     .game-page ul, .game-page li {padding: 0px !important; font-size: 1.5rem !important; margin-top: 150px !important;}
-    .slider-text-middle .alt-font{margin-top: 10px !important; padding: 0px !important;}
+    .slider-text-middle .alt-font{margin-top: -90px !important; padding: 0px !important;}
     nav.navbar .container-fluid {flex-wrap: nowrap !important;}
-    nav.navbar.bootsnav .navbar-toggler {justify-content: end !important;color: red !important;margin-right: -380px !important;}
+    nav.navbar.bootsnav .navbar-toggler {justify-content: end !important;color: red !important;margin-right:-0px !important;}
+    nav.navbar .container-fluid{margin-top: 15px !important;}
     .accordion-menu{padding: 0px !important;}
     .list-style-12 li, .list-style-12 ul{text-align: start !important;padding-left: 0px !important;}
     .quadro3{padding-top: 50px !important;}
     .quadro6 .fadeInLeft{height: 350px !important;}
-    .crm2{margin-top: 70px !important;}
-    .crm{padding:20px !important}
+    .crm2{margin-top: 70px !important; padding: 0px 15px 0px 15px !important;}
     .crm h5{text-align:justify !important;}
+    .agepopup{margin-top: 200px !important; position: fixed !important;}
+    .agepopup h3, .agepopup p{font-size: 1.2rem !important; font-family: "Montserrat", sans-serif;}
+    .age-text-btn{width: -20px !important; padding: 15px 25px 15px 25px; font-size: 1rem !important; font-family: "Montserrat", sans-serif;}
+    .agepopup .p-6{padding: 1.1rem;}
+    .cookie{width: 350px !important; opacity: 0.9;}
+    .accept2{width: 400px !important; margin: 16px 0px 0px 0px !important;}
+    .cookie .txt p{font-size:1rem !important;line-height: 20px;}
+    .cookie{height: 80px !important;}
+    .accept{margin: 0px !important; }
+    .titulo-info3 a{font-size: 1.3rem !important; margin: 20px !important; display: block !important;}
+    .quadro7{padding: 100px 15px 15px 15px !important;}
+    .quadro7 h3, .quadro5 h3, .quadro2 h3, .quadro6 h4{font-size:2.5rem !important; line-height: 40px !important;}
+    .crm .text-uppercase{font-size: 2rem !important;}
+    .box-info2{padding: 30px 0px 50px 0px !important;}
+    .page-logo{height: auto !important;}
+    .page-rights-2{padding: 30px !important; line-height: 20px; text-align: justify !important;}
+    .page-rights-2 h3{font-size: 1.5rem !important; line-height: 30px; margin-top:50px !important;}
+    .game-page li{margin-top: 40px !important; font-size: 1.5rem !important; text-align: justify; line-height: 25px;}
+    .game-page{height: 2100px !important;}
 }
 /* RESPONSIVO MOBILE DEITADO */
 @media only screen and (max-width: 916px) and (max-height: 416px){
@@ -92,8 +111,8 @@
     .quadro5 .box-esq h3{text-align: center!important;}
     .quadro5{padding-top: 70px !important;}
     .subcrm{font-size: 1.2rem !important; line-height: 30px !important; margin: 20px;}
-    .solucao{padding-top: 0px !important;}
-    .solucao h4{font-size: 2.3rem !important; text-align: center !important;}
+    .solucao{padding: 0px !important; margin: 0px !important;}
+    .solucao h4{font-size: 2.3rem !important; text-align: center !important; margin: 0px !important;}
     .solucao p, li{font-size: 1.2rem !important;}
     .quadro6 .cover-background{background-size: contain !important;}
     .aviso, .trabalho{margin: -15px 0px 0px 0px !important;padding: 0px !important;}
@@ -106,6 +125,41 @@
     .warning_footer{margin-top: 30px !important;}
     #contact{margin-top: 1px !important;}
     .titulo-principal{margin-top: 100px !important;}
+
+    .swiper-slide .alt-font{margin-top: 150px !important;}
+    .wave-topo{visibility: hidden !important;}
+    .quadro2 p{margin-bottom: 50px;}
+    .wave-arquitetura{margin-top: -70px !important; z-index: -1 !important;}
+    .quadro3 .titulo{padding-top: 0px !important; font-size: 2.5rem !important; line-height: 40px !important;}
+    .quadradinho{width: 300px !important; height: 250px !important; margin: 30px !important;}
+    .crm{padding: 20px 15px 20px 15px !important;}
+    .crm2, .subcrm2{padding: 0px !important; margin-bottom: 100px !important;}
+    .quadro{padding-top: 0px !important;}
+    .game-page ul, .game-page li {padding: 0px !important; font-size: 1.5rem !important; margin-top: 150px !important;}
+    .slider-text-middle .alt-font{margin-top: 10px !important; padding: 0px !important;}
+    nav.navbar .container-fluid {flex-wrap: nowrap !important;}
+    nav.navbar.bootsnav .navbar-toggler {justify-content: end !important;color: red !important;}
+    .accordion-menu{padding: 0px !important;}
+    .list-style-12 li, .list-style-12 ul{text-align: start !important;padding-left: 0px !important;}
+    .quadro3{padding-top: 50px !important;}
+    .quadro6 .fadeInLeft{height: 350px !important;}
+    .crm2{margin-top: 70px !important; padding: 0px 15px 0px 15px !important;}
+    .crm h5{text-align:justify !important;}
+    .agepopup{margin-top: 200px !important; position: fixed !important;}
+    .agepopup h3, .agepopup p{font-size: 1.2rem !important; font-family: "Montserrat", sans-serif;}
+    .age-text-btn{width: -20px !important; padding: 15px 25px 15px 25px; font-size: 1rem !important; font-family: "Montserrat", sans-serif;}
+    .agepopup .p-6{padding: 1.1rem;}
+    .cookie{width: 350px !important; opacity: 0.9;}
+    .accept2{width: 400px !important; margin: 16px 0px 0px 0px !important;}
+    .cookie .txt p{font-size:1rem !important;line-height: 20px;}
+    .cookie{height: 80px !important;}
+    .accept{margin: 0px !important; }
+    .titulo-info3 a{font-size: 1.3rem !important; margin: 20px !important; display: block !important;}
+    .quadro7{padding: 15px !important;}
+    .quadro7 h3, .quadro5 h3, .quadro2 h3, .quadro6 h4{font-size:2.5rem !important; line-height: 40px !important;}
+    .crm .text-uppercase{font-size: 2rem !important;}
+    .box-info2{padding: 30px 0px 50px 0px !important;}
+    .banner-globe{height: 500px !important; background-color: white !important;}
 }
 @media (max-width: 1605px) and (max-height: 939px){
     footer .box-info span{
@@ -138,7 +192,7 @@
     .solucao, .solucao ul li, .solucao p {
         justify-content: end !important;
         text-align: end !important;
-        margin-right: -20px;
+        margin-right:75px;
     }
     .solucao p, .solucao ul li{
         padding-left: 350px;
@@ -147,7 +201,7 @@
     .solucao h4{
         text-align: end;
         margin-top: -400px;
-        font-size: 2.1rem !important;
+        font-size: 2.1rem;
     }
     .list-style-12 li:before {
         content: "";
@@ -161,7 +215,7 @@
         display: inline;
     }
     section#about h3{
-        font-size: 2.8rem !important;
+        font-size: 2.5rem !important;
     }
     .quadro4 h5{
         font-size: 2.8rem;

@@ -82,7 +82,7 @@
         </button>
         <!-- Main modal -->
         <div id="defaultModal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full justify-center items-center">
-            <div class="relative p-4 w-full h-full md:h-auto" style="max-width:500px;">
+            <div class="relative p-4 w-full h-full md:h-auto agepopup" style="max-width:500px;">
                 <!-- Modal content -->
                 <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
                     <!-- Modal header -->
@@ -97,17 +97,17 @@
                     </div>
                     <!-- Modal body -->
                     <div class="p-6 space-y-6">
-                        <p class="leading-relaxed text-gray-500 dark:text-gray-400"style="font-size:1.3rem !important;">
+                        <p class="leading-relaxed text-gray-500 dark:text-gray-400"style="font-size:1.3rem">
                         Você deve ter mais de 18 anos de idade para usufruir deste site.
                         </p>
-                        <p class=" leading-relaxed text-gray-500 dark:text-gray-400"style="font-size:1.3rem !important;">
+                        <p class=" leading-relaxed text-gray-500 dark:text-gray-400"style="font-size:1.3rem">
                         Nós nos importamos com o que entregamos portanto nos responsabilizamos por isto.
                         </p>
                     </div>
                     <!-- Modal footer -->
                     <div class="flex items-center p-6 space-x-2 rounded-b border-t border-gray-200 dark:border-gray-600">
-                        <button data-modal-toggle="defaultModal" type="button" class=" text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onclick="enableScroll();  aceitarPopup(true);" style="background-color: #7ac000; font-size: 1.1rem;">Sou maior de idade</button>
-                        <button data-modal-toggle="defaultModal" type="button" class="text-light hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600" onclick="encaminharSite()" style="background-color: #f1f1f100; color: rgb(139, 139, 139) !important; border: none !important;">Sou menor de idade</button>
+                        <button data-modal-toggle="defaultModal" type="button" class="age-text-btn text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm  text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onclick="enableScroll();  aceitarPopup(true);" style="background-color: #7ac000;">Sou maior de idade</button>
+                        <button data-modal-toggle="defaultModal" type="button" class="age-text-btn text-light hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium  hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600" onclick="encaminharSite()" style="background-color: #f1f1f100; color: rgb(139, 139, 139) !important; border: none !important;">Sou menor de idade</button>
                     </div>
                 </div>
             </div>
@@ -652,14 +652,15 @@
             <div class="container ">
                      <div class="row justify-content-center" style="justify-content:center;">
                          <div style="justify-content:center;" class="col-12 col-xl-10 col-md-6 margin-eight-bottom md-margin-40px-bottom sm-margin-30px-bottom text-center">
-                             <div class="alt-font text-dark margin-15px-bottom text-uppercase text-small titulo">Máxima experiência ao cliente</div>
-                             <p class="alt-font mb-0 subtitulo text-center text-dark">Nossos produtos são criados de forma inteligente e integrada  <br>para oferecer uma jornada mais enriquecida aos usuários.</p>
+                             <div class="alt-font text-dark margin-15px-bottom text-uppercase text-small titulo">PODEROSO SISTEMA BACKOFFICE</div>
+                             <p class="alt-font mb-0 subtitulo text-center text-dark">A nossa plataforma de jogos gere a compra de um sistema integrado de back office.<br> Com essa ferramenta de Negócios e BI, somos capazes de gerir jogos, configurações,<Br> clientes, bónus, ferramentas promocionais, jackpots e também dados estratégicos.<br></p>
                          </div>
                      </div>
                      
+                     
                      <div class="row">
                          <!-- start feature box item -->
-                         <div class="col-12 col-lg-4 col-md-4 sm-margin-30px-bottom wow fadeIn " >
+                         <div class=" sm-margin-30px-bottom wow fadeIn " >
                              <div class="bg-light-gray text-center border-radius-10  position-relative lg-padding-twelve-all quadradinho" style="padding-bottom:66px;">
                                  <h4 class="text-light-gray text-white alt-font font-weight-300 margin-20px-bottom"></h4>
                                  <div class="alt-font margin-10px-bottom md-margin-5px-bottom titulo2" style="margin-bottom:22px; color:black;">Aplicativos Customizados</div>
@@ -669,7 +670,7 @@
                          </div>
                          <!-- end feature box item -->
                          <!-- start feature box item -->
-                         <div class="col-12 col-lg-4 col-md-4 sm-margin-30px-bottom wow fadeIn" data-wow-delay="0.2s">
+                         <div class=" sm-margin-30px-bottom wow fadeIn" data-wow-delay="0.2s">
                              <div class="bg-light-gray text-center border-radius-10  position-relative lg-padding-twelve-all quadradinho">
                                  <h4 class="text-light-gray text-white alt-font font-weight-300 margin-20px-bottom"></h4>
                                  <div class="alt-font  margin-10px-bottom md-margin-5px-bottom titulo2" style="margin-bottom:22px; color:black;">Ferramentas de Marketing</div>
@@ -680,7 +681,7 @@
                          
                          <!-- end feature box item -->
                          <!-- start feature box item -->
-                         <div class="col-12 col-lg-4 col-md-4 sm-margin-30px-bottom wow fadeIn" data-wow-delay="0.2s">
+                         <div class=" sm-margin-30px-bottom wow fadeIn" data-wow-delay="0.2s">
                             <div class="bg-light-gray text-center border-radius-10  position-relative lg-padding-twelve-all quadradinho">
                                 <h4 class="text-light-gray text-white alt-font font-weight-300 margin-20px-bottom"></h4>
                                 <div class="alt-font  margin-10px-bottom md-margin-5px-bottom titulo2" style="margin-bottom:22px; color:black;">Suporte Completo</div>
@@ -694,8 +695,8 @@
                                  <p style="margin-bottom:4px; font-size: 1.3rem;">Oferecemos suporte técnico e comercial personalizado multi-idiomas</p>-->
                          
                          <div class="crm">
-                            <div class="alt-font margin-15px-bottom text-uppercase" style="font-size:1.5rem; color: black;">PODEROSO SISTEMA BACKOFFICE</div>
-                            <h5 class="alt-font mb-0 subcrm">A nossa plataforma de jogos gere a compra de um sistema integrado de back office.<br> Com essa ferramenta de Negócios e BI, somos capazes de gerir jogos, configurações,<Br> clientes, bónus, ferramentas promocionais, jackpots e também dados estratégicos.<br></h5>
+                            <div class="alt-font margin-15px-bottom text-uppercase" style="font-size:1.5rem; color: black;">Máxima experiência ao cliente</div>
+                            <h5 class="alt-font mb-0 subcrm">Nossos produtos são criados de forma inteligente e integrada <br>para oferecer uma jornada mais enriquecida aos usuários.</h5>
                         </div>
                      </div>
                  </div>
@@ -712,7 +713,7 @@
 
                     
 
-                    <div class="col-12 col-xl-5 col-lg-6 padding-eight-half-all lg-padding-seven-all wow fadeInRight solucao">
+                    <div class="col-12 col-xl-5 col-lg-6 wow fadeInRight solucao">
                         <h4 class="alt-font font-weight-600 margin-45px-bottom md-margin-25px-bottom sm-margin-20px-bottom ">Parceiros e distribuidores estratégicos</h4>
                         <p class="margin-35px-bottom md-margin-25px-bottom sm-width-100">Através de rede de distribuição lincenciada globalmente, nossos jogos chegam a vários sites no mundo todo</p>
                         <ul class="list-style-12 margin-35px-top">
@@ -819,14 +820,14 @@
 
                     <div class="sm-margin-30px-bottom sm-text-center box-info">
                         <div class="row justify-content-center">
-                            <h5 class="margin-5px-bottom margin-15px-top text-light-gray">PRÊMIOS</h5>
+                            <h5 class="margin-5px-bottom margin-15px-top text-light-gray">DADOS</h5>
                               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi leis-icon text-white" viewBox="0 0 16 16">
                                 <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z"/>
                                 <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
                               </svg>
                         </div>
                         <div class="info1">
-                            <span class="mb-0 text-light-gray">Estamos trabalhando para disputarmos o prêmio de Melhor Fornecedor Tecnológico/ Plataforma de 2023.</span>
+                            <span class="mb-0 text-light-gray">Cuidamos da privacidade de todos os usuários e clientes, aplicando as melhores políticas e práticas para cuidar da proteção de nossos dados.</span>
                         </div>
                     </div>
                     
@@ -846,17 +847,30 @@
                     </div>
                 </div> 
 
-                <div class="row align-items-md-start justify-content-center margin-30px-top">
+                <div class="row align-items-md-start justify-content-center margin-50px-top">
                     <!-- start logo -->
-                    <div class="col-lg-3 md-margin-50px-bottom sm-margin-30px-bottom text-center" style="padding:0px;">
-                        <a href="index.html"><img class="footer-logo" src="/images/logos/logo_amg3_verde.png" data-rjs="/images/logo-white@2x.png" alt="Logo" style="margin-bottom: 25px; width: 300px;" ></a>
+                    <div class=" md-margin-50px-bottom sm-margin-30px-bottom text-center box-image-footer" style="padding:0px;">
+                        <a href="index.html"><img class="footer-logo" src="/images/logos/logo_amg4_verde.png" data-rjs="/images/logo-white@2x.png" alt="Logo" style="margin-bottom: 25px;" ></a>
                         <!-- <div class="medias">
                         <a href="https://www.facebook.com/Amazonia-Studio-108128804382800" title="Facebook" target="_blank"><i class="fab fa-facebook-f fa-2x" aria-hidden="true"></i></a>
                         <a href="https://www.instagram.com/amazoniastudios/" title="Instagram" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>    
                         <a href="https://br.linkedin.com/company/amzdig" title="Linkedin" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
                         </div> -->
-                        
                     </div> 
+
+                    <div class="sm-text-center box-info2">
+                        <div class="row justify-content-center">
+                            <h5 class=" text-light-gray">PRÊMIOS</h5>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi leis-icon2 text-white" viewBox="0 0 16 16">
+                                <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z"/>
+                                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                              </svg>
+                        </div>
+                        <div class="info1">
+                            <span class="mb-0 text-light-gray">Estamos trabalhando para disputarmos o prêmio de Melhor Fornecedor Tecnológico/ Plataforma de 2023.</span>
+                        </div>
+                    </div>
+
                     <!-- end logo -->
                     <!-- start copyright -->
                     <div class="sm-margin-30px-bottom sm-text-center">
