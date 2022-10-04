@@ -36,7 +36,7 @@ function teste2()
   {
     //fala que é nada
     // console.log("nada");
-    alterarImagem('logoo', '/images/logos/logo_amg3.png');
-    alterarCor("white");
+    // alterarImagem('logoo', '/images/logos/logo_amg3.png');
+    // alterarCor("white");
   }
 }
