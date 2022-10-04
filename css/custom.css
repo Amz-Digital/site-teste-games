@@ -41,6 +41,11 @@ nav.navbar.white-link .heder-menu-button a {
   opacity: 0.75;
   box-shadow: 2px solid black;
 }
+.age-text-btn{
+  padding: 20px; 
+  font-size: 1.1rem;
+  border-radius: 6px !important;
+}
 
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Anton:300,400,600,800|Nunito:300,400,600,800");

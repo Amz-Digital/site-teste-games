@@ -159,10 +159,10 @@
     .quadro6 .fadeInLeft{height: 350px !important;}
     .crm2{margin-top: 140px !important; padding: 0px 15px 0px 15px !important;}
     .crm h5{text-align:justify !important; }
-    .agepopup{margin-top: 200px !important; position: fixed !important;}
+    .agepopup{margin-top: 60px !important; position: fixed !important; }
     .agepopup h3, .agepopup p{font-size: 1.2rem !important; font-family: "Montserrat", sans-serif;}
     .age-text-btn{width: -20px !important; padding: 15px 25px 15px 25px; font-size: 1rem !important; font-family: "Montserrat", sans-serif;}
-    .agepopup .p-6{padding: 1.1rem;}
+    .agepopup .p-6{padding: 0.5rem 1rem}
     .cookie{width: 350px !important; opacity: 0.9;}
     .accept2{width: 400px !important; margin: 16px 0px 0px 0px !important;}
     .cookie .txt p{font-size:1rem !important;line-height: 20px;}
@@ -182,6 +182,7 @@
     section#about h3{font-size: 2.3rem !important; text-align: end !important;}
     .swiper-slide .container{min-height: 390px !important;}
     .swiper-slide {background-image: url('/images/slides/slide_jackpot3.png') !important;}
+
 }
 
 @media (max-width: 1535px) and (max-height: 930px){
