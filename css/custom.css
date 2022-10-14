@@ -635,3 +635,9 @@ th {
   margin-left: 15px;
 }
 .footer-logo{width: 300px;}
+.aviso img{
+  width: 40px !important; 
+  height: auto;
+  display: inline;
+  margin-left: 20px;
+}
