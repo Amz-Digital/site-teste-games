@@ -65,5 +65,9 @@ function encaminharSiteEn()
 {
   window.location.replace('/decline_popup.html');
 }
+function encaminharSiteEs()
+{
+  window.location.replace('decline_popup.html');
+}
 
 
