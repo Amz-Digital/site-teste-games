@@ -39,7 +39,13 @@ nav.navbar.white-link .heder-menu-button a {
   opacity: 0.75;
   box-shadow: 2px solid black;
 }
-
+#out-lang{
+  position: relative;
+  z-index: 99999;
+  height: max-content !important;
+  width: 100% !important;
+  background-color: red !important;
+}
 #lang-icon{
   display: flex;
   align-self: center;
@@ -62,19 +68,23 @@ nav.navbar.white-link .heder-menu-button a {
   display: inline-block;
   width: 80px ;
   height: 70px;
-
+  margin: 0px 0px 0px -20px;
 }
 #btn-change-lang{
-  margin: 0px 0px 0px -100px;
+  background-color: rgba(255, 0, 0, 0);
+  width: 60px;
+  height: 40px;
+  margin: -24px 0px 0px 0px !important;
   display: flex;
   flex-direction: row;
 }
-
-
+#box-lang{
+  visibility: hidden;
+}
 .box-lang{
   display: block;
-  margin: 30px 0px 0px -100px !important;
-  width: 140px;
+  margin: 10px 20px 0px -80px;
+  width: 120px;
   text-align: start;
   background-color: #2525256e;
   border-radius: 10px;
@@ -84,7 +94,8 @@ nav.navbar.white-link .heder-menu-button a {
   font-size: 1rem !important;
   line-height: 30px;
   color: rgb(211, 211, 211) !important;
-  margin: 0px 0px 0px 15px;
+  margin: 0px 0px 0px 10px;
+  padding: 5px 10px 5px 0px;
 }
 .box-lang ul li:hover{
   background-color: rgba(102, 196, 78, 0.507);
@@ -92,15 +103,16 @@ nav.navbar.white-link .heder-menu-button a {
   border-radius: 10px;
   margin: 0px;
 }
+
 .box-lang ul li span svg{
   display: flex;
   align-self: center !important;
-  vertical-align: center;
   display: inline;
-  margin: 0px 0px 3px 30px;
-  width: 20px;
+  margin: 0px 0px 3px 0px;
+  width: 25px;
   height: auto;
 }
+
 .age-text-btn{
   padding: 20px; 
   font-size: 1.1rem;

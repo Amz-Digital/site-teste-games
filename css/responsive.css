@@ -100,9 +100,9 @@
     .game-page2{height: 400px !important;}
     .game-page2 ul{margin-top: 150px !important;}
     .box-image-footer{margin: 0px !important;}
-    .accordion-menu button{
-        width: auto !important;
-    }
+    .accordion-menu button{width: auto !important;}
+    .box-lang{background-color: #252525d7 !important}
+    
 
 /* RESPONSIVO MOBILE DEITADO */
 @media only screen and (max-width: 916px) and (max-height: 416px){
@@ -216,6 +216,14 @@
         margin-left: 20px;
     }
 }
+@media (max-width: 1207px){
+    .accordion-menu{
+        padding-left: 0px !important;
+    }
+    #btn-lang-open{
+        margin-left: -50px !important;
+    }
+}
 @media (max-width: 1024px){
     .quadro2 h3{
         padding-top:60px;
@@ -263,13 +271,26 @@
     }
 }
 @media (max-width:1107px){
-    header nav.navbar.white-link .navbar-nav > li > a, nav.navbar.bootsnav.white-link ul.nav > li > a, header nav.navbar.white-link .header-social-icon a, nav.navbar.bootsnav.white-link .header-social-icon a, header nav.navbar.white-link .header-searchbar a, nav.navbar.bootsnav.white-link .header-searchbar a, header nav.navbar.bootsnav ul.nav.white-link > li > a, nav.navbar.white-link .heder-menu-button a {
-        display: flex !important;
+    
+    
+    nav.navbar.navbar-default ul.nav > li > a {
         font-size: 1.2rem !important;
+        display: flex !important;
+    }
+    
+}
+@media (max-width: 992px){
+    #btn-lang-open{
+        margin-left: -100px !important;
+        width: 45px !important;
+        height: 30px !important;
+    }
+    #btn-change-lang{
+        width: 40px !important;
     }
 }
-
 @media (min-width: 992px) {
+    
 
     .feature-box-14 > div:nth-child(even) { border-bottom: 0}
     .feature-box-14 > div:nth-child(odd) { border-bottom: 0}
