@@ -67,7 +67,8 @@
     .slider-text-middle .alt-font{margin-top: -90px !important; padding: 0px !important;}
     nav.navbar .container-fluid {flex-wrap: nowrap !important;}
     nav.navbar.bootsnav .navbar-toggler {justify-content: end !important;color: red !important;margin-right:-0px !important;}
-    nav.navbar .container-fluid{margin-top: 15px !important;}
+    
+    .wrong-header{margin-top: -20px !important;}
     nav.navbar .nav-bar-contact{margin-top: 0px !important;}
     .accordion-menu{padding: 0px !important;}
     .list-style-12 li, .list-style-12 ul{text-align: start !important;padding-left: 0px !important;}
@@ -152,6 +153,7 @@
     .game-page li{margin-top: 0px !important;}
     .slider-text-middle .alt-font{margin-top: 10px !important; padding: 0px !important;}
     nav.navbar .container-fluid {flex-wrap: nowrap !important;}
+    .wrong-header{margin-top: -20px !important;}
     nav.navbar.bootsnav .navbar-toggler {justify-content: end !important;color: red !important;}
     .accordion-menu{padding: 0px !important;}
     .list-style-12 li, .list-style-12 ul{text-align: start !important;padding-left: 0px !important;}
