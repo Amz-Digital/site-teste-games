@@ -67,7 +67,7 @@
     .slider-text-middle .alt-font{margin-top: -90px !important; padding: 0px !important;}
     nav.navbar .container-fluid {flex-wrap: nowrap !important;}
     nav.navbar.bootsnav .navbar-toggler {justify-content: end !important;color: red !important;margin-right:-0px !important;}
-    
+    nav.navbar button{height: 14px !important;}
     .wrong-header{margin-top: -20px !important;}
     nav.navbar .nav-bar-contact{margin-top: 0px !important;}
     .accordion-menu{padding: 0px !important;}
