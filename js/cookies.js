@@ -4,8 +4,8 @@ function aceitarCookies(respostaCookie)
 {
   mostrarCookie = respostaCookie;
   localStorage.setItem("mostrarCookie",true);
-  console.log("cookie agora é " + mostrarCookie);
-  console.log("mostrarPop agora é " + mostrarPop);
+  // console.log("cookie agora é " + mostrarCookie);
+  // console.log("mostrarPop agora é " + mostrarPop);
   //false aparece
   //true não aparece
   //visible
@@ -23,7 +23,7 @@ function aceitarCookies2(){
 function mostrarCookies()
 {
   mostrarCookie = localStorage.getItem("mostrarCookie");
-  console.log("get item = " + mostrarCookie);
+  // console.log("get item = " + mostrarCookie);
 
   if (mostrarCookie)
   {
@@ -32,7 +32,7 @@ function mostrarCookies()
   {
     //false aparece
     //true não aparece
-    console.log(mostrarCookie);
+    // console.log(mostrarCookie);
     document.getElementById('cookies').hidden=false;
   }
 }
