@@ -39,6 +39,22 @@ nav.navbar.white-link .heder-menu-button a {
   opacity: 0.75;
   box-shadow: 2px solid black;
 }
+#box-lang-li a{
+  display: block;
+  margin: 0px;
+  padding: 0px 0px 0px 10px;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+#box-lang-li svg{
+  display: flex;
+  align-self: center !important;
+  display: inline;
+  margin: 0px 0px 3px 0px;
+  width: 25px;
+  height: auto;
+  color: #79c000;
+}
 
 #out-lang{
   position: relative;
