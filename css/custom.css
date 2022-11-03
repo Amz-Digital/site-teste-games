@@ -516,8 +516,16 @@ footer {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
-.trabalho h5 {
+.trabalho h5{
   font-size: 1.3rem;
+}
+.trabalho a:first-child{
+  font-size: 1.3rem;
+}
+.trabalho a:first-child:hover{
+  font-weight: 400;
+  color: white;
+  text-shadow: 0 0 4px #fff, 0 0 36px rgb(255, 255, 255);
 }
 .trabalho span,
 a {
@@ -635,6 +643,18 @@ th {
   text-align: center;
   justify-content: center;
 }
+.game-page2 ul {
+  display: table;
+  height: 100%;
+  align-items: center !important;
+}
+.game-page2 li{
+  display: table-cell;
+  vertical-align: middle;
+}
+.game-page2{
+  background-image: none !important;
+}
 .botao3 button{
   background-image: url("/images/play.png");
   background-repeat: no-repeat;
@@ -742,4 +762,8 @@ th {
   height: auto;
   display: inline;
   margin-left: 20px;
+}
+.begamble img{
+  width:250px;
+  height: auto;
 }

@@ -99,9 +99,9 @@
     .img-horizontal{width: 340px !important;height: 200px !important;}
     .swiper-wrapper h6{font-size: 1.4rem !important;}
     .swiper-slide {background-image: url('/images/slides/slide_jackpot3.png') !important; height: 500px !important; margin-top: -20px !important;margin-bottom: -100px !important;}
-        .game-page2{padding: 0px !important;}
+        .game-page2{padding: 0px 30px 0px 30px !important;}
         .game-page2{height: 400px !important;}
-        .game-page2 ul{margin-top: 150px !important;}
+        /* .game-page2 ul{margin-top: 150px !important;} */
     }
 
     .box-image-footer{margin: 0px !important;}
