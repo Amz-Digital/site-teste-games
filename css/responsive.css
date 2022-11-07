@@ -108,8 +108,9 @@
     .game-page2{height: 550px !important;}
     /* .game-page2 ul{margin-top: 150px !important;} */
     .contact-box hr{width:220px !important; margin: 0 auto !important; margin-bottom: 70px !important; margin-top:0px !important}
-    .contact-box li{font-size: 1.1rem !important;text-align: center !important;}
+    .contact-box li{font-size: 1.2rem !important;text-align: center !important;}
     .contact-box svg{height: 20px !important; width:20px !important;}
+    .media-box{margin: 0px 33px 33px 0px !important;}
     }
     .box-image-footer{margin: 0px !important;}
     .accordion-menu button{width: auto !important;}
@@ -209,9 +210,9 @@
     .contact-box li{font-size: 1.3rem !important;text-align: center !important;}
     .contact-box svg{height: 25px !important; width:25px !important;}
     .swiper-wrapper .titulo-principal{margin-top: 50px !important;}
-    
     .swiper-wrapper h6{font-size: 1.4rem !important;}
     .solucao p{padding-right: 20px !important;}
+    .media-box{margin: 0px 33px 33px 0px !important;}
 
 
 }
