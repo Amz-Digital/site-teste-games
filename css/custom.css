@@ -208,7 +208,8 @@ body {
 }
 .quadro3 {
   background-color: white;
-  padding-top: 200px ;
+  padding-top: 220px;
+  height: 1800px;
 }
 .quadro3 .titulo {
   color: #f0f0f0;
@@ -838,7 +839,64 @@ th {
   width:250px;
   height: auto;
 }
-.age18 img{
+.age18{
+  margin: 10px 0px 0px 15px;
   display: flex;
   justify-content: center;
+}
+.age18 p{
+  align-self: center;
+  margin: 0px 0px 0px 10px;
+  color: #D6D5D5;
+}
+#wave-mid-box{
+  width: 100%;
+  height:300px;background-color:#2b2b2b;
+  margin:0px;
+}
+.wave-mid{
+  width: 100%;
+  position: absolute;
+  z-index: 9;
+  color: #2b2b2b;
+  height: 800px;
+  margin: 500px 0px 0px 0px;
+}
+.wave-mid img{
+  margin: -30px 30px 0px 0px;
+  width: 500px;
+  height: auto ;
+  justify-content: end;
+}
+.wave-mid h5{
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  display: inline;
+  color: #ffffff;
+  font-weight: 500;
+  width: 430px;
+  height: 100px;
+  margin: 50px 0px 0px 30px;
+}
+.wave-mid a{
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  display: inline;
+  color: #ffffff !important;
+  background-color: #79C000;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  padding: 5px 15px 5px 15px;
+  position: absolute;
+  margin: 0px 0px 50px 30px;
+  align-self: flex-end;
+}
+.wave-mid a:hover{
+  text-shadow: 0 0 6px #fff, 0 0 46px rgba(255, 255, 255, 0.781);
+  background-color: #89d800;
+}
+.wave-mid .col:first-child{
+  display: flex;
+  justify-content: right;
 }
