@@ -504,7 +504,7 @@ footer .row{
 .titulo-info3 a {
   line-height: normal;
   color: #d6d5d5;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin: 0px 30px;
@@ -664,8 +664,18 @@ th {
   text-align: center;
   z-index: 9999;
   right: 0;
-  margin: 20px 30px 100px 20px;
+  margin: 20px 30px 150px 20px;
   bottom: 0;
+}
+.media-box ul li:hover{
+  background-color: rgba(194, 255, 176, 0.397);
+  height: 61px;
+  width: 61px;
+}
+.media-box ul li:active{
+  background-color: rgba(194, 255, 176, 0.685);
+  height: 61px;
+  width: 61px;
 }
 .media-box ul li{
   margin: 30px 0px 0px 0px;
@@ -828,7 +838,7 @@ th {
   font-weight: 600;
   margin-left: 15px;
 }
-.footer-logo{width: 300px;}
+.footer-logo{width: 250px;}
 .aviso img{
   width: 40px !important; 
   height: auto;
@@ -893,7 +903,7 @@ th {
   align-self: flex-end;
 }
 .wave-mid a:hover{
-  text-shadow: 0 0 6px #fff, 0 0 46px rgba(255, 255, 255, 0.781);
+  text-shadow: 0 0 6px #fff, 0 0 46px rgba(255, 255, 255, 0.452);
   background-color: #89d800;
 }
 .wave-mid .col:first-child{

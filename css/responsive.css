@@ -159,7 +159,7 @@
     .aviso p {text-align: justify !important;}
     .foot-menu{display: flex;flex-wrap: wrap;justify-content: center;}
     .foot-menu span{opacity: 0;}
-    .warning_footer{margin-top: 30px !important;}
+    .warning_footer{margin-top: 20px !important;}
     
 
     .swiper-slide .alt-font{margin-top: 150px !important;}
