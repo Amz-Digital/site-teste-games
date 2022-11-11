@@ -5,37 +5,12 @@
 <loc>https://amazoniagames.com/</loc>
 <lastmod>2022-10-31T11:53:25+00:00</lastmod>
 <priority>1.00</priority>
-<xhtml:link
-  rel="alternate"
-  hreflang="en"
-  href="https://amazoniagames.com/en/"/>
-<xhtml:link
-  rel="alternate"
-  hreflang="pt-BR"
-  href="https://amazoniagames.com/pt-BR/"/>
-<xhtml:link
-  rel="alternate"
-  hreflang="es"
-  href="https://amazoniagames.com/es/"/>
 </url>
 <url>
 <loc>https://amazoniagames.com/index.html</loc>
 <lastmod>2022-10-31T11:53:25+00:00</lastmod>
 <priority>0.80</priority>
-<xhtml:link
-  rel="alternate"
-  hreflang="en"
-  href="https://amazoniagames.com/en/index.html"/>
-<xhtml:link
-  rel="alternate"
-  hreflang="pt-BR"
-  href="https://amazoniagames.com/pt-BR/index.html"/>
-<xhtml:link
-  rel="alternate"
-  hreflang="es"
-  href="https://amazoniagames.com/es/index.html"/>
-</url>
-<url>
+ <url>
 <loc>https://amazoniagames.com/contact.html</loc>
 <lastmod>2022-10-31T11:53:25+00:00</lastmod>
 <priority>0.80</priority>
