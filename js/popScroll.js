@@ -8,27 +8,34 @@ function mostrarPopUp()
   // mostrarPop = true = nao aparecer
   if (mostrarPop && mostrarCookie)
   {
-    
   }else
   {
     mostrarPop = true;
     var botao = document.getElementById('botaoPop');
     botao.click();
-  }
+   }
 }
 
 function aceitarPopup(respostaPopUp)
 {
   console.log("mostrarPop agora é " + mostrarPop)
   mostrarPop = respostaPopUp;
+  console.log("dando hide");
+  $('#age-box').modal('hide');
   localStorage.setItem("mostrarPop",true);
   mostrarCookie = localStorage.getItem("mostrarCookie");
   if (mostrarCookie)
   {
     localStorage.setItem("mostrarPop",true);
+
+    // mostrarAgebox();
   }
   return mostrarPop;
 }
+
+// function mostrarAgebox(){
+//   document.getElementById('age-box').style.visibility='visible';
+// }
 
 function disableScroll()
 {

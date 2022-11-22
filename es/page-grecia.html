@@ -2,16 +2,13 @@
 <html class="no-js" lang="es">
 
 <head>
-  <!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-TS56P7J');</script>
-  <!-- End Google Tag Manager -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KLC4ZT9');</script>
+    <!-- End Google Tag Manager -->
 
   <!-- title -->
   <title>Grecia Bingo</title>
@@ -64,7 +61,8 @@
   <link rel="stylesheet" href="/css/custom.css">
   <link rel="stylesheet" href="/css/particulas.css">
   <link rel="stylesheet" href="/css/slider.css">
-  <link rel="stylesheet" href="https://flowbite.com/docs/flowbite.css?v=1.5.3a">
+  <!-- <link rel="stylesheet" href="https://flowbite.com/docs/flowbite.css?v=1.5.3a"> -->
+
   <script src="/js/popScroll.js"></script>
   <script src="/js/popup1.js"></script>
   <script src="/js/popup2.js"></script>
@@ -74,11 +72,36 @@
 
 <body>
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TS56P7J" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLC4ZT9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <!-- start header -->
   <!-- Modal toggle -->
+  <button type="button" data-toggle="modal" data-target="#age-box" id="botaoPop" hidden>
+  </button>
 
+      <!-- menu maior idade -->
+    <div id="age-box" tabindex="-1" class="modal" role="dialog" aria-hidden="true" style="z-index: 1042; display: none;">
+    <div class="container ">
+        <div class="age-titulo row">
+            <h1>Verificación de edad</h1>
+            <button onclick="encaminharSiteEs()" id="age-btn-closepopup"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16" >
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+            </svg></button>
+            
+        </div>
+        <hr>
+        <div class="age-descricao">
+            <p>Debe ser mayor de 18 años para disfrutar de este sitio.</p>
+            <p>Nos preocupamos por lo que entregamos y nos responsabilizamos de ello.</p>
+        </div>
+        <div class="age-alerta">
+
+            <hr>
+            <button id="age-btn-accept" onclick="enableScroll(); aceitarPopup(true);">Soy mayor de edad</button>
+            <button id="age-btn-decline" onclick="encaminharSiteEs()">Soy menor de edad</button>
+        </div>
+    </div>
+</div>
 
   <header id="coisa">
     <!-- start navigation -->

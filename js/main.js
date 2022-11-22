@@ -145,10 +145,10 @@ function init_scroll_navigate() {
   if (!$("header").hasClass("no-sticky")) {
     if ($(document).scrollTop() >= headerHeight) {
       $("header").addClass("sticky");
-      teste2();
+      // teste2();
     } else if ($(document).scrollTop() <= headerHeight) {
       $("header").removeClass("sticky");
-      teste2();
+      // teste2();
       setTimeout(function () {
         setPageTitleSpace();
       }, 500);

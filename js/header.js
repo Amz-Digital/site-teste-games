@@ -15,28 +15,28 @@ function alterarCor(cor)
   // document.getElementById('letra7').style.color = cor;
   document.getElementById('sanduiche').style.color = cor;
 }
-function teste2()
-{
-  var cabecalho = document.getElementById("coisa");
-  // console.log(cabecalho.classList.contains("sticky"));
-  aux = cabecalho.classList.contains("sticky");
-  // console.log(aux);
-  // true = preto
-  // false = nada
+// function teste2()
+// {
+//   var cabecalho = document.getElementById("coisa");
+//   // console.log(cabecalho.classList.contains("sticky"));
+//   aux = cabecalho.classList.contains("sticky");
+//   // console.log(aux);
+//   // true = preto
+//   // false = nada
 
-  //se negativo
-  if (aux)
-  {
-    //fala q é preto
-    // console.log("preto");
-    alterarImagem('logoo', '/images/logos/logo_amg3_verde.png');
-    alterarCor("rgb(121, 192, 0)");
-  }
-  else
-  {
-    //fala que é nada
-    // console.log("nada");
-    // alterarImagem('logoo', '/images/logos/logo_amg3.png');
-    // alterarCor("white");
-  }
-}
+//   //se negativo
+//   if (aux)
+//   {
+//     //fala q é preto
+//     // console.log("preto");
+//     alterarImagem('logoo', '/images/logos/logo_amg3_verde.png');
+//     alterarCor("rgb(121, 192, 0)");
+//   }
+//   else
+//   {
+//     //fala que é nada
+//     // console.log("nada");
+//     // alterarImagem('logoo', '/images/logos/logo_amg3.png');
+//     // alterarCor("white");
+//   }
+// }
