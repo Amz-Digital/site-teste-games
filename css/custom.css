@@ -970,17 +970,14 @@ th {
   height: 0.2px;
 }
 #age-box .age-alerta button{
-  /* display: flex; */
-  border: none;
-  border-radius: 6px;
-  padding: 20px;
-  height: 65px;
-}
-#age-box .age-alerta button{
   font-size: 1.1rem;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
   letter-spacing: 0px;
+  border: none;
+  border-radius: 6px;
+  padding: 20px;
+  height: 65px;
 }
 #age-box .age-alerta {
   display: flex;
@@ -998,5 +995,13 @@ th {
 }
 #age-btn-decline{
   background-color: #f1f1f100;
+  color: #8B8B8B;
+}
+#age-btn-accept:hover {
+  background-color: #8bdb00;
+  color: white;
+}
+#age-btn-decline:hover{
+  background-color: #f1f1f183;
   color: #8B8B8B;
 }
