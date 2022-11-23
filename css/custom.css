@@ -31,6 +31,9 @@ nav.navbar.white-link .heder-menu-button a {
   color: white !important;
   opacity: 1 !important;
 }
+.main-slider{
+  width:100% !important;
+}
 .btn-language img {
   border-radius: 50%;
   border-color: 3px solid white;
