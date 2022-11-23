@@ -10,10 +10,20 @@ function mostrarPopUp()
   {
   }else
   {
-    mostrarPop = true;
-    var botao = document.getElementById('botaoPop');
-    botao.click();
+    
+    ligarPressionarBotao();
+    
    }
+}
+function ligarPressionarBotao(){
+  let timeout;
+  timeout = setTimeout(pressionarBotao,2000);
+  
+}
+function pressionarBotao(){
+  mostrarPop = true;
+  var botao = document.getElementById('botaoPop');
+  botao.click();
 }
 
 function aceitarPopup(respostaPopUp)

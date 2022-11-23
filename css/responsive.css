@@ -247,7 +247,7 @@
 
 /* MACBOOK */
 @media (max-width: 2561px) and (max-height: 1601px) and (min-width: 2558px) and (min-height: 1598px) {
-    .swiper-slide {margin-top: -80px !important;margin-bottom: -100px !important;}
+    .swiper-slide {margin-top: -120px !important;margin-bottom: -100px !important;}
 }
 
 @media (max-width: 1535px) and (max-height: 930px){
