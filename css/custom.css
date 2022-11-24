@@ -20,6 +20,9 @@ nav.navbar.white-link .heder-menu-button a {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+header nav {
+  background: linear-gradient(180deg, rgba(0,0,0,0.8267682072829132) 25%, rgba(0,0,0,0.6530987394957983) 64%, rgba(0,0,0,0) 100%);
+}
 .trocaCorHeader a {
   color: rgb(255, 255, 255) !important;
 }
@@ -31,8 +34,8 @@ nav.navbar.white-link .heder-menu-button a {
   color: white !important;
   opacity: 1 !important;
 }
-.main-slider{
-  width:100% !important;
+.main-slider .container{
+  max-width: 1450px;
 }
 .btn-language img {
   border-radius: 50%;
