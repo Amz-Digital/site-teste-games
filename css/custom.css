@@ -30,7 +30,11 @@ header nav {
   cursor: auto;
 }
 .swiper-wrapper h6 {
-  font-size: 2rem;
+  margin-top: -170px;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 800;
+  line-height: 70px;
+  font-size: 4.3rem;
   color: white !important;
   opacity: 1 !important;
 }
