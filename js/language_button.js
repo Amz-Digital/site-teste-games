@@ -20,12 +20,12 @@ function mostrarLang2()
 }
 function clickOutLang()
 {
-  console.log("click out");
+  // console.log("click out");
   if(window.langElement == "visible")
   {
     document.getElementById('box-lang').style.visibility = "hidden";
     window.langElement = document.getElementById('box-lang').style.visibility;
-    console.log("click out confirmed");
+    // console.log("click out confirmed");
 
   }
 }
