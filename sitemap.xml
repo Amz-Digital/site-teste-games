@@ -1,233 +1,237 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-<loc>https://amazoniagames.com/</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>1.00</priority>
+  <loc>https://amazoniagames.com/indexen.html</loc>
+  <lastmod>2022-11-25T14:55:59+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/index.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.80</priority>
- <url>
-<loc>https://amazoniagames.com/contact.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://amazoniagames.com/contact.html</loc>
+  <lastmod>2022-11-25T14:16:35+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/pt-BR/index.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://amazoniagames.com/pt-BR/index.html</loc>
+  <lastmod>2022-11-25T14:55:29+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/es/index.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://amazoniagames.com/es/index.html</loc>
+  <lastmod>2022-11-25T14:55:22+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/policy-cookies.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://amazoniagames.com/policy-cookies.html</loc>
+  <lastmod>2022-11-25T14:16:27+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/page-joker.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://amazoniagames.com/page-joker.html</loc>
+  <lastmod>2022-11-25T14:16:20+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/page-china.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://amazoniagames.com/page-china.html</loc>
+  <lastmod>2022-11-25T14:16:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/page-lasvegas.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://amazoniagames.com/page-lasvegas.html</loc>
+  <lastmod>2022-11-25T14:16:22+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/page-grecia.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://amazoniagames.com/page-grecia.html</loc>
+  <lastmod>2022-11-25T14:16:19+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/page-aloha.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://amazoniagames.com/page-aloha.html</loc>
+  <lastmod>2022-11-25T14:11:41+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/page-superbig.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://amazoniagames.com/page-superbig.html</loc>
+  <lastmod>2022-11-25T14:16:24+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/page-bigbingo.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://amazoniagames.com/page-bigbingo.html</loc>
+  <lastmod>2022-11-25T14:16:07+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/page-fortuna.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://amazoniagames.com/page-fortuna.html</loc>
+  <lastmod>2022-11-25T14:16:15+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/page-mega.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://amazoniagames.com/page-mega.html</loc>
+  <lastmod>2022-11-25T14:16:23+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/page-golden.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://amazoniagames.com/page-golden.html</loc>
+  <lastmod>2022-11-25T14:16:17+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/privacy-policy.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://amazoniagames.com/privacy-policy.html</loc>
+  <lastmod>2022-11-25T14:16:29+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/responsible-games.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://amazoniagames.com/responsible-games.html</loc>
+  <lastmod>2022-11-25T14:16:32+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/pt-BR/contact.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://amazoniagames.com/pt-BR/contact.html</loc>
+  <lastmod>2022-11-25T14:05:50+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/es/contact.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://amazoniagames.com/es/contact.html</loc>
+  <lastmod>2022-11-25T14:03:24+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/pt-BR/page-joker.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://amazoniagames.com/pt-BR/page-joker.html</loc>
+  <lastmod>2022-11-25T14:06:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/pt-BR/page-china.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://amazoniagames.com/pt-BR/page-china.html</loc>
+  <lastmod>2022-11-25T14:06:13+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/pt-BR/page-lasvegas.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://amazoniagames.com/pt-BR/page-lasvegas.html</loc>
+  <lastmod>2022-11-25T14:06:20+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/pt-BR/page-grecia.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://amazoniagames.com/pt-BR/page-grecia.html</loc>
+  <lastmod>2022-11-25T14:06:17+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/pt-BR/page-aloha.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://amazoniagames.com/pt-BR/page-aloha.html</loc>
+  <lastmod>2022-11-25T14:06:07+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/pt-BR/page-superbig.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://amazoniagames.com/pt-BR/page-superbig.html</loc>
+  <lastmod>2022-11-25T14:06:22+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/pt-BR/page-bigbingo.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://amazoniagames.com/pt-BR/page-bigbingo.html</loc>
+  <lastmod>2022-11-25T14:06:11+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/pt-BR/page-fortuna.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://amazoniagames.com/pt-BR/page-fortuna.html</loc>
+  <lastmod>2022-11-25T14:06:15+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/pt-BR/page-mega.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://amazoniagames.com/pt-BR/page-mega.html</loc>
+  <lastmod>2022-11-25T14:06:21+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/pt-BR/page-golden.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://amazoniagames.com/pt-BR/page-golden.html</loc>
+  <lastmod>2022-11-25T14:06:16+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/pt-BR/politicas-privacidade.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://amazoniagames.com/pt-BR/politicas-privacidade.html</loc>
+  <lastmod>2022-11-25T14:06:25+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/pt-BR/politicas-cookies.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://amazoniagames.com/pt-BR/politicas-cookies.html</loc>
+  <lastmod>2022-11-25T14:06:24+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/pt-BR/jogo-responsavel.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://amazoniagames.com/pt-BR/jogo-responsavel.html</loc>
+  <lastmod>2022-11-25T14:06:02+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/es/page-joker.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://amazoniagames.com/es/page-joker.html</loc>
+  <lastmod>2022-11-25T14:05:32+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/es/page-china.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://amazoniagames.com/es/page-china.html</loc>
+  <lastmod>2022-11-25T14:05:21+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/es/page-lasvegas.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://amazoniagames.com/es/page-lasvegas.html</loc>
+  <lastmod>2022-11-25T14:05:34+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/es/page-grecia.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://amazoniagames.com/es/page-grecia.html</loc>
+  <lastmod>2022-11-25T14:05:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/es/page-aloha.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://amazoniagames.com/es/page-aloha.html</loc>
+  <lastmod>2022-11-25T14:05:10+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/es/page-superbig.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://amazoniagames.com/es/page-superbig.html</loc>
+  <lastmod>2022-11-25T14:05:39+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/es/page-bigbingo.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://amazoniagames.com/es/page-bigbingo.html</loc>
+  <lastmod>2022-11-25T14:05:18+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/es/page-fortuna.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://amazoniagames.com/es/page-fortuna.html</loc>
+  <lastmod>2022-11-25T14:05:24+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/es/page-mega.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://amazoniagames.com/es/page-mega.html</loc>
+  <lastmod>2022-11-25T14:05:36+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/es/page-golden.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://amazoniagames.com/es/page-golden.html</loc>
+  <lastmod>2022-11-25T14:05:27+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/es/politicas-privacidade.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://amazoniagames.com/es/politicas-privacidade.html</loc>
+  <lastmod>2022-11-25T14:05:43+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/es/politicas-cookies.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://amazoniagames.com/es/politicas-cookies.html</loc>
+  <lastmod>2022-11-25T14:05:41+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://amazoniagames.com/es/jogo-responsavel.html</loc>
-<lastmod>2022-10-31T11:53:25+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://amazoniagames.com/es/jogo-responsavel.html</loc>
+  <lastmod>2022-11-25T14:04:39+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
+
+
 </urlset>

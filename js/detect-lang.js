@@ -1,16 +1,16 @@
 function changeLang()
 {
   // console.log(navigator.language)
-  // console.log(alreadyChangeLang)
+  console.log(alreadyChangeLang)
   var alreadyChangeLang2 = sessionStorage.getItem("alreadyChangeLang");
 
   if(alreadyChangeLang2)
   {
-    // console.log("ja teve a pagina trocada");
+    console.log("ja teve a pagina trocada");
   }
   else
   {
-    // console.log("primeira vez");
+    console.log("primeira vez");
 
     var lang = navigator.language;
     var lang2 = lang.length;
