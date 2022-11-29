@@ -628,7 +628,7 @@ th {
   width: 320px !important;
 }
 .page-logo{
-  margin-top: -10%;
+  /* margin-top: -10%; */
   display: inline;
   justify-content: center;
   width: 550px ;

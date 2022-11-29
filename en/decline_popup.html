@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="es">
+<html class="no-js" lang="pt-br">
     <head>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -10,13 +10,14 @@
     <!-- End Google Tag Manager -->
 
         <!-- title -->
-        <title>Juego responsable</title>
+        <title>Underage</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
         <meta name="author" content="Amazonia Studio">
         <!-- description -->
-        <meta name="description" content="Somos responsables de su seguridad y experiencia en el juego. ">
+        <meta name="description" content="Our products are for older. ">
+
         <!-- keywords -->
         <meta name="keywords" content="">
         <!-- favicon -->
@@ -51,13 +52,14 @@
         <!-- responsive css -->
         <link rel="stylesheet" href="/css/responsive.css" />
         <!--[if IE]>
-            <script src="/js/html5shiv.js"></script>
+            <script src="js/html5shiv.js"></script>
         <![endif]-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="/css/custom.css">
+        <script src="/js/language_button.js"></script>
         <link rel="stylesheet" href="/css/particulas.css">
         <link rel="stylesheet" href="/css/slider.css">
         <!-- <link rel="stylesheet" href="https://flowbite.com/docs/flowbite.css?v=1.5.3a"> -->
@@ -65,14 +67,14 @@
         <script src="/js/popScroll.js"></script>
         <script src="/js/popup1.js"></script>
         <script src="/js/popup2.js"></script>
-        <script src="/js/language_button.js"></script>
 
     </head>
-    <body>
+    <body >
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLC4ZT9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
         <!-- start header -->
+        <!-- Modal toggle -->
         <button type="button" data-toggle="modal" data-target="#age-box" id="botaoPop" hidden>
         </button>
     
@@ -80,42 +82,41 @@
         <div id="age-box" tabindex="-1" class="modal" role="dialog" aria-hidden="true" style="z-index: 1042; display: none;">
             <div class="container ">
                 <div class="age-titulo row">
-                    <h1>Verificación de edad</h1>
-                    <button onclick="encaminharSiteEs()" id="age-btn-closepopup"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16" >
+                    <h1>Age verification</h1>
+                    <button onclick="encaminharSiteEn()" id="age-btn-closepopup"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16" >
                         <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-                    </svg></button>
-                    
+                      </svg></button>
+                      
                 </div>
                 <hr>
                 <div class="age-descricao">
-                    <p>Debe ser mayor de 18 años para disfrutar de este sitio.</p>
-                    <p>Nos preocupamos por lo que entregamos y nos responsabilizamos de ello.</p>
+                    <p>You must be over 18 years of age to enjoy this site.</p>
+                    <p>We care about what we deliver, so we take responsibility for it.</p>
                 </div>
                 <div class="age-alerta">
-
+    
                     <hr>
-                    <button id="age-btn-accept" onclick="enableScroll(); aceitarPopup(true);">Soy mayor de edad</button>
-                    <button id="age-btn-decline" onclick="encaminharSiteEs()">Soy menor de edad</button>
+                    <button id="age-btn-accept" onclick="enableScroll(); aceitarPopup(true);">I am of legal age</button>
+                    <button id="age-btn-decline" onclick="encaminharSiteEn()">I am of legal age</button>
                 </div>
             </div>
         </div>
-       
 
-        <header id="coisa">
+        <header>
             <!-- start navigation -->
-            <nav class="navbar navbar-default bootsnav navbar-fixed-top header-dark background-transparent nav-box-width white-link navbar-expand-lg menu-center border-white-light">
+            <nav class="navbar navbar-default bootsnav navbar-fixed-top header-dark background-transparent nav-box-width white-link navbar-expand-lg menu-center border-white-light" >
                 <div class="container-fluid nav-header-container">
                     <!-- start logo -->
-                    <div class="col-auto col-lg-2 pl-0">
+                    <div class="col-auto col-lg-2 pl-0 margin-10px-top">
                         <a href="index.html" title="Logo" class="logo">
-                            <img src="/images/logos/logo_amg3_verde.png" data-rjs="/images/logos/logo_amazonia_gray.png" class="logo-dark" alt="Logo Amazonia Games">
-                            <img src="/images/logos/logo_amg3_verde.png" data-rjs="/images/logos/logo_amazonia_gray.png" alt="Logo Amazonia Games" class="logo-light default" id="logoo">
+                            <img src="/images/logos/logo_amg3_verde.png" data-rjs="/images/logos/logo_amazonia_gray.png" class="logo-dark" alt="Amazonia">
+                            <img src="/images/logos/logo_amg3_verde.png" data-rjs="/images/logos/logo_amazonia_gray.png" alt="Amazonia" class="logo-light default" id="logoo">
                         </a>
                         
                     </div>
                     <!-- end logo -->
-                    <div class="col accordion-menu pr-0 pr-md-3" onclick="clickOutLang()">
-                        <button type="button" class="navbar-toggler collapsed"  data-toggle="collapse" data-target="#navbar-collapse-toggle-1" onclick="clickOutLang()">
+                    <div class="col accordion-menu pr-0 pr-md-3"onclick="clickOutLang()">
+                        <button type="button" class="navbar-toggler collapsed"  data-toggle="collapse" data-target="#navbar-collapse-toggle-1"style="margin-right: 0px !important;"onclick="clickOutLang()">
                             <span class="sr-only" id="sanduiche">toggle navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -125,25 +126,26 @@
                             <ul id="accordion letra" class="nav navbar-nav no-margin alt-font text-normal" data-in="fadeIn" data-out="fadeOut">
                                 <!-- start menu item -->
                                 <li class="dropdown megamenu-fw">
-                                  <a href="index.html#" id="letra1">Inicio</a><i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                                    <a href="index.html#" id="letra1">Home</a><i class="fas fa-angle-down dropdown-toggle"  data-toggle="dropdown" aria-hidden="true"></i>                                    
                                 </li>
-                  
+                                
                                 <li class="dropdown megamenu-fw">
-                                  <a href="index.html#games" id="letra2">Juegos</a><i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                                    <a href="index.html#games" id="letra2">Games</a><i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>                                    
                                 </li>
                                 <li class="dropdown megamenu-fw">
-                                  <a href="index.html#maxima-experiencia" id="letra25">Sistema</a><i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                                    <a href="index.html#maxima-experiencia" id="letra25">System</a><i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>                                    
                                 </li>
-                  
+                                
                                 <li class="dropdown megamenu-fw">
-                                  <a href="index.html#distribution" id="letra3">Tecnologia</a><i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                                    <a href="index.html#distribution" id="letra3">Technology</a><i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>                                    
                                 </li>
-                  
+                                
                                 <li class="dropdown megamenu-fw">
-                                  <a href="index.html#contact" id="letra4">Contacto</a><i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                                    <a href="/contact.html" id="letra4">Contact</a><i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>      
+                                    <div class="linha_baixo"></div>                              
                                 </li>
-                  
-                              </ul>
+                                
+                            </ul>
                         </div>
                     </div>
                     <div class="col-auto col-lg-2 pr-0 text-right">
@@ -160,25 +162,26 @@
                                     </div>
                                 </a>
                                 
+        
                                 <div class="box-lang" id="box-lang">
                                     <ul>
                                         <li id="box-lang-li">
-                                            <a href="/pt-BR/jogo-responsavel.html">Portugués
+                                            <a href="/pt-BR/decline_popup.html">Portuguese
                                                 <svg hidden id="check-pt" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
                                                 <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
                                                 </svg>
                                             </a>
                                         </li>
-                                        <li id="box-lang-li">
-                                            <a href="/en/responsible-games.html">Inglés
-                                                <svg hidden id="check-en" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                                        <li id="box-lang-li" style="background-color: #b7f75823; border-radius: 10px;">
+                                            <a href="#">English
+                                                <svg  id="check-en" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
                                                 <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
                                                 </svg>
                                             </a>
                                         </li>
-                                        <li id="box-lang-li" style="background-color: #b7f75823; border-radius: 10px;">
-                                            <a href="#">Español
-                                                <svg  id="check-es" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                                        <li id="box-lang-li">
+                                            <a href="/es/decline_popup.html">Spanish
+                                                <svg hidden id="check-es" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
                                                 <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
                                                 </svg>
                                             </a>
@@ -195,102 +198,128 @@
             </nav>
             <!-- end navigation --> 
         </header>
-        <section class="p-0 main-slider h-100 position-relative overflow-visible mobile-height wow fadeIn"onclick="clickOutLang()">
-          <div class="swiper-full-screen swiper-container h-100 w-100 white-move">
-              <div class="swiper-wrapper">
-                  <!-- start slider item -->
-                  <div class="swiper-slide cover-background" style="background-image:url('/images/slides/slide_jackpot6.png'); height:750px; ">
-
-                      <div class="container position-relative full-screen">
-                          <div class="slider-typography text-center">
-                              <div class="slider-text-middle-main">
-                                <div class="slider-text-middle">
-                                  <div class=" text-white-2 font-weight-700 title-large margin-two-bottom mx-auto lg-width-80 md-margin-four-bottom sm-width-90 sm-margin-15px-bottom  titulo-principal sm-letter-spacing-0 ">JUEGO RESPONSABLE</div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                </div>
-          </div>
-        </section>
         
         <!-- end header -->
-        <section class="wow fadeIn cover-background page-rights-2" style="padding:100px;"onclick="clickOutLang()">
-            <h3>JOGO RESPONSÁVEL</h3>
-            <p>
-                El juego responsable define los principios de la empresa relacionados con la responsabilidad de Amazonia Games en la promoción de prácticas de juego sanas y justas.
-            </p>
-            <p>
-                El juego es capaz de proporcionar a las personas una forma de mejorar su bienestar social y emocional, ya que enriquece su entorno y proporciona beneficios que afectan a sus relaciones profesionales y personales. No es, por tanto, una forma de librarse de los problemas financieros o emocionales.
-            </p>
-            <p>
-                La mayoría de la población adulta disfruta del juego en un entorno seguro, divertido y controlado como un elemento más de sus actividades de ocio. Sin embargo, como afirma la Organización Mundial de la Salud (OMS), existe una minoría de usuarios que, por diversos factores, tienen dificultades para relacionarse con el juego de forma responsable. Sabiendo que, detrás de las estadísticas, hay situaciones que afectan a los seres humanos, es fundamental que Amazônia Games apoye a estas personas promoviendo una cultura de Juego Responsable que fomente el buen uso de esta actividad, proporcionando los elementos necesarios para detectar y evaluar posibles problemas.
-            </p>
-
-
+        <!-- start slider section -->
+        <section onclick="clickOutLang()"  class="p-0 main-slider h-100 position-relative overflow-visible mobile-height wow fadeIn">
+            <div class="swiper-full-screen swiper-container h-100 w-100 white-move">
+                <div class="swiper-wrapper" style="color:red; background-color:rgba(0, 0, 255, 0);">
+                    <!-- start slider item -->
+                    <!-- primeira imagem -->
+                    <div class="swiper-slide cover-background" style="background-image:url('/images/slides/slide_jackpot6.png'); height:750px; ">
+                        <div class="container position-relative full-screen">
+                            <div class="slider-typography text-center">
+                                <div class="slider-text-middle-main">
+                                    <div class="slider-text-middle">
+                                      <div class=" text-white-2 font-weight-700 title-large margin-two-bottom mx-auto lg-width-80 md-margin-four-bottom sm-width-90 sm-margin-15px-bottom sm-letter-spacing-0  titulo-principal">UNDERAGE</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- segunda imagem -->
+                    <!-- <div class="swiper-slide cover-background" style="background-image:url('/images/slides/slide88.png'); height: 750px;">
+                        <div class="container position-relative full-screen">
+                            <div class="slider-typography text-center">
+                                <div class="slider-text-middle-main">
+                                    <div class="slider-text-middle">
+                                        <div class=" text-white-2 font-weight-700 title-large margin-two-bottom mx-auto lg-width-80 md-margin-four-bottom sm-width-90 sm-margin-15px-bottom sm-letter-spacing-0  titulo-principaltitulo-principal"style="margin-top:-150px;">Digital Entertainment</div>
+                                        <h6 class="text-white-2 opacity6 padding-ten-lr font-weight-300 margin-four-bottom md-margin-four-bottom sm-margin-20px-bottom">We provide Video Bingo and Slots games worldwide</h6>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- end slider item -->
+                    
+                </div>              
+                <!-- <div class="swiper-pagination swiper-pagination-square swiper-pagination-white swiper-full-screen-pagination d-none"></div>
+                <div class="swiper-button-next slider-small-arrow-white"><i class="fas fa-angle-right pull-right"></i></div>
+                <div class="swiper-button-prev slider-small-arrow-white"><i class="fas fa-angle-left pull-right"></i></div> -->
+                <!-- end slider pagination -->
+                <!-- end slider pagination -->
+            </div>
+            <!-- scroll down arrow -->
+            <!-- <div class="scroll-down-section text-center"><a href="#about" class="inner-link text-uppercase text-small text-white-2 text-white-2-hover opacity5 margin-10px-bottom display-inline-block">scroll down</a><div class="separator-line-verticle-large bg-deep-pink m-auto"></div></div> -->
+            <!-- start slider pagination -->
         </section>
-        <!-- FIM CONTEUDO -->
-        
+        <!-- end slider section --> 
+        <!-- start about section -->
+
+
+        <!-- end feature section -->
+        <section onclick="clickOutLang()"  class="wow fadeIn cover-background page-rights" style="padding:100px;">
+          <p>
+            We at Amazonia Games unfortunately do not allow anyone under the age of 18 on our site.
+          </p>
+          
+          <p>
+            If you are over 18, you can return to the main <a href="/index.html" style="font-size:1.2rem;">Amazonia Games</a> website and agree to the terms of the popup.
+          </p>
+          
+        </section>
+
         <!-- start footer --> 
-        <div class="container-footer" onclick="clickOutLang()">
-            <footer id="contact" class="footer-strip-dark">
-                <div class="row align-items-md-start justify-content-center margin-50px-top">
+        <div class="container-footer" onclick="clickOutLang()" >
+            <footer id="contact" class="footer-strip-dark">      
         
-                    <!-- <div class="sm-text-center box-info2">
+                <div class="row align-items-md-start justify-content-center margin-50px-top">
+                    <!-- start logo -->
+                    <!-- <div class=" sm-text-center box-info2">
                         <div class="row justify-content-center">
-                            <h5 class=" text-light-gray">PREMIOS</h5>
+                            <h5 class=" text-light-gray">AWARDS</h5>
                               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi leis-icon2 text-white" viewBox="0 0 16 16">
                                 <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z"/>
                                 <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
                               </svg>
                         </div>
                         <div class="info1">
-                            <span class="mb-0 text-light-gray">Trabajamos para competir por el premio a la mejor plataforma tecnológica de 2023.</span>
+                            <span class="mb-0 text-light-gray">We are working hard to compete for the 2023 Best Technology Platform Provider award.</span>
                         </div>
                     </div> -->
         
-                    <div class="   text-center box-image-footer" style="margin:0px 20px 0px 20px;">
-                        <a href="index.html"><img class="footer-logo" src="/images/logos/logo_amg4_verde.png" data-rjs="/images/logo-white@2x.png" alt="Logo" style="margin-bottom: 25px;" ></a>
+                    <div class=" md-margin-50px-bottom sm-margin-30px-bottom text-center box-image-footer" style="margin:0px 0px 0px 20px;">
+                        <a href="/index.html"><img class="footer-logo" src="/images/logos/logo_amg4_verde.png" data-rjs="/images/logo-white@2x.png" alt="Logo Amazonia Games" style="margin-bottom: 25px; " ></a>
                         <!-- <div class="medias">
                         <a href="https://www.facebook.com/Amazonia-Studio-108128804382800" title="Facebook" target="_blank"><i class="fab fa-facebook-f fa-2x" aria-hidden="true"></i></a>
                         <a href="https://www.instagram.com/amazoniastudios/" title="Instagram" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>    
                         <a href="https://br.linkedin.com/company/amzdig" title="Linkedin" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
                         </div> -->
+                        
                     </div> 
         
-                    <div class=" sm-text-center">
-                        <div class="trabalho"> 
-                            <h5 class="mb-0 text-light-gray">Contacte con</h5>
+                    <div class="sm-margin-20px-bottom sm-text-center">
+                        <div class="trabalho">
+                            <h5 class="mb-0 text-light-gray">Contact</h5>
+                            <!-- <a href="#" class="mb-0 text-light-gray">Contact</a> -->
                             <a href="mailto:info@amazoniastudio.com">info@amazoniagames.com</a>
                         </div>
                     </div>
+        
                     <div class="age18 row justify-content-center text-center mb-2">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="white" height="40" width="40" viewBox="0 0 193.333 193.333" style="enable-background:new 0 0 193.333 193.333;" xml:space="preserve">
                         <path d="M169.837,193.333H23.496c-1.104,0-2-0.896-2-2V2c0-1.104,0.896-2,2-2h146.341c1.104,0,2,0.896,2,2v189.333  C171.837,192.438,170.941,193.333,169.837,193.333z M25.496,189.333h142.341V4H25.496V189.333z M106.118,170.641  c-12.09,0-21.926-9.836-21.926-21.927v-36.543c0-8.828,5.243-16.454,12.78-19.927c-7.537-3.473-12.78-11.099-12.78-19.927V56.561  c0-12.091,9.836-21.927,21.926-21.927c12.091,0,21.927,9.836,21.927,21.927v15.757c0,8.828-5.243,16.454-12.78,19.927  c7.537,3.473,12.78,11.099,12.78,19.927v36.543C128.045,160.805,118.209,170.641,106.118,170.641z M106.118,94.244  c-9.885,0-17.926,8.042-17.926,17.927v36.543c0,9.885,8.042,17.927,17.926,17.927s17.927-8.042,17.927-17.927v-36.543  C124.045,102.286,116.003,94.244,106.118,94.244z M106.118,38.634c-9.885,0-17.926,8.042-17.926,17.927v15.757  c0,9.885,8.042,17.927,17.926,17.927s17.927-8.042,17.927-17.927V56.561C124.045,46.676,116.003,38.634,106.118,38.634z   M61.76,169.658c-1.104,0-2-0.896-2-2V41.462L44.338,56.884c-0.78,0.781-2.048,0.781-2.828,0c-0.781-0.781-0.781-2.047,0-2.828  L60.346,35.22c0.571-0.572,1.432-0.743,2.179-0.434c0.748,0.31,1.235,1.039,1.235,1.848v131.024  C63.76,168.763,62.864,169.658,61.76,169.658z M141.087,46.277c-1.104,0-2-0.896-2-2v-8.792h-8.792c-1.104,0-2-0.896-2-2  s0.896-2,2-2h8.792v-8.793c0-1.104,0.896-2,2-2s2,0.896,2,2v8.793h8.793c1.104,0,2,0.896,2,2s-0.896,2-2,2h-8.793v8.792  C143.087,45.382,142.191,46.277,141.087,46.277z"/>
-                        </svg ><br>
-                        <p>Para los mayores de 18 años.</p>
+                        </svg><br>
+                        <p>For ages 18 and older.</p>
                     </div>
-        
                 </div>
         
                 <div class="row justify-content-center text-center mb-2 ">
-                    
-                        
                     <div class="col-md-12 titulo-info3" style="margin: 20px 0px 0px 0px">
                         <h2 class="warning_footer">
-                            <a href="politicas-privacidade.html">POLÍTICA DE PRIVACIDAD</a>
-                            <a href="politicas-cookies.html">POLÍTICA DE COOKIES</a>
-                            <a href="jogo-responsavel.html">JUEGO RESPONSABLE</a>
+                            <a href="privacy-policy.html">PRIVACY POLICY</a>
+                            <a href="policy-cookies.html">COOKIES POLICY</a>
+                            <a href="responsible-games.html">RESPONSIBLE GAMES</a>
                         </h2>
                     </div>
                 </div> 
                 
                 <!-- <div class="row justify-content-center text-center mb-2 ">
                     <div class="col-md-12 aviso">
-                        <h2 class="warning_footer">ATENCÍON</h2>
+                        <h2 class="warning_footer">Alert</h2>
                             <ul>
-                                <li><span>Los juegos y contenidos están dirigidos a un público adulto. <img src="/images/+18.png" alt="" class="y18"></span></li>
+                                <li><span>The games and content are intended for an adult audience.</span> <img src="/images/+18.png" alt="" class="y18"></li>
                                 <li><span>- The games do not offer opportunities with real money and opportunities to earn real money or prizes.</span>
                                 <li><span>- Wins made while gambling in social casino games can't be exchanged into real money or real rewards.</span>
                                 <li><span>- The practice of success in social casino games does not imply future success in games of chance with real money.</span>
@@ -301,9 +330,6 @@
                             </ul>
                     </div>
                 </div>  -->
-              
-        
-        
                 
                 <div class="row justify-content-center text-center mt-3">
                         <!-- <div class="foot-menu">                            
@@ -315,16 +341,17 @@
                             <span> | </span>
                             <a href="responsible-game.html">Jogo Responsável</a>
                             <span> | </span>
-                            <a href="index.html#contact">Perguntas Frequentes</a>
+                            <a href="/index.html#contact">Perguntas Frequentes</a>
                     </div> -->
                     <div class="col-md-12">
                         <div class="copy-right">
-                            <h5>2021 &copy Amazonia Games. Todos los derechos reservados. Esta empresa está registrada en España.</h5>
+                            <h5>2021 &copy Amazonia Games. All rights reserved. This company is registered in Spain.</h5>
                         </div>
                     </div>
                 </div>
             </footer>
         </div>
+        
         <!-- end footer -->
         <!-- start scroll to top -->
         <a class="scroll-top-arrow" href="javascript:void(0);"><i class="ti-arrow-up"></i></a>
@@ -373,26 +400,27 @@
         <!-- retina -->
         <script type="text/javascript" src="/js/retina.min.js"></script>
         <!-- revolution -->
-        <!-- <script type="text/javascript" src="/revolution/js/jquery.themepunch.tools.min.js"></script>
-        <script type="text/javascript" src="/revolution/js/jquery.themepunch.revolution.min.js"></script> -->
+        <script type="text/javascript" src="/revolution/js/jquery.themepunch.tools.min.js"></script>
+        <script type="text/javascript" src="/revolution/js/jquery.themepunch.revolution.min.js"></script>
         <!-- revolution slider extensions (load below extensions JS files only on local file systems to make the slider work! The following part can be removed on server for on demand loading) -->
-        <!--<script type="text/javascript" src="/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-        <script type="text/javascript" src="/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-        <script type="text/javascript" src="/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-        <script type="text/javascript" src="/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-        <script type="text/javascript" src="/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-        <script type="text/javascript" src="/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-        <script type="text/javascript" src="/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-        <script type="text/javascript" src="/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-        <script type="text/javascript" src="/revolution/js/extensions/revolution.extension.video.min.js"></script>-->
+        <!--<script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>-->
         <!-- setting -->
         <script type="text/javascript" src="/js/main.js"></script>
-        <!-- <script type="text/javascript" src="/js/slider.js"></script> -->
+        <script type="text/javascript" src="/js/slider.js"></script>
 
 
-        <!-- <script src="node_modules/particles.js/particles.js"></script>
-        <script src="node_modules/particles.js/demo/js/app.js"></script> -->
+        <script src="/node_modules/particles.js/particles.js"></script>
+        <script src="/node_modules/particles.js/demo/js/app.js"></script>
         <script src="/js/header.js"></script>
+        <script type="text/javascript" src="/node_modules/vanilla-tilt/dist/vanilla-tilt.js"></script>
         <!-- chefe -->
     </body>
 </html>

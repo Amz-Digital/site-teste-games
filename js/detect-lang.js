@@ -35,13 +35,13 @@ function changeLang()
     // || 'en-US' || 'en-EG' || 'en-AU' || 'en-GB' || 'en-CA' || 'en-NZ' || 'en-IE' || 'en-ZA' || 'en-JM' || 'en-BZ' || 'en-TT'
     else if(lang == 'en')
     {
-      window.location.replace('/indexen.html');
+      window.location.replace('/en/index.html');
       sessionStorage.setItem("alreadyChangeLang","true");
       // console.log("aba trocada para en");
     }
     else
     {
-      window.location.replace('/indexen.html');
+      window.location.replace('/index.html');
       sessionStorage.setItem("alreadyChangeLang","true");
       // console.log("linguagem desconhecida, encaminhando para en");
     }

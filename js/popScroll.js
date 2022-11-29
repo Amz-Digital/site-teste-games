@@ -3,8 +3,8 @@ function mostrarPopUp()
   mostrarPop = true;
   mostrarPop = localStorage.getItem("mostrarPop");
   mostrarCookie = localStorage.getItem("mostrarCookie");
-  console.log("cookie está: " + mostrarCookie);
-  console.log("mostrarPop está: " + mostrarPop);
+  // console.log("cookie está: " + mostrarCookie);
+  // console.log("mostrarPop está: " + mostrarPop);
   // mostrarPop = true = nao aparecer
   if (mostrarPop && mostrarCookie)
   {
@@ -30,7 +30,7 @@ function aceitarPopup(respostaPopUp)
 {
   console.log("mostrarPop agora é " + mostrarPop)
   mostrarPop = respostaPopUp;
-  console.log("dando hide");
+  // console.log("dando hide no modal");
   $('#age-box').modal('hide');
   localStorage.setItem("mostrarPop",true);
   mostrarCookie = localStorage.getItem("mostrarCookie");
@@ -80,11 +80,11 @@ function encaminharSite()
 
 function encaminharSiteEn()
 {
-  window.location.replace('/decline_popup.html');
+  window.location.replace('/en/decline_popup.html');
 }
 function encaminharSiteEs()
 {
-  window.location.replace('decline_popup.html');
+  window.location.replace('/es/decline_popup.html');
 }
 
 
