@@ -1,5 +1,3 @@
-
-
 function aceitarCookies(respostaCookie)
 {
   mostrarCookie = respostaCookie;
@@ -18,28 +16,23 @@ function aceitarCookies(respostaCookie)
 function aceitarCookies2(){
   localStorage.setItem("mostrarPop",true);
 }
-
-
-function mostrarCookies()
-{
-  mostrarCookie = localStorage.getItem("mostrarCookie");
-  // console.log("get item = " + mostrarCookie);
-
-  if (mostrarCookie)
-  {
-
-  }else
-  {
-    //false aparece
-    //true não aparece
-    // console.log(mostrarCookie);
-    ligarMudarHiddenCookies();
+$( document ).ready(function() {
+  function mostrarCookies() {
+    mostrarCookie = localStorage.getItem("mostrarCookie");
+    // console.log("get item = " + mostrarCookie);
+    if (mostrarCookie) {
+    } else {
+      //false aparece
+      //true não aparece
+      // console.log(mostrarCookie);
+      ligarMudarHiddenCookies();
+    }
+    function ligarMudarHiddenCookies() {
+      let timeout2;
+      timeout2 = setTimeout(mudarHiddenCookies, 2000);
+    }
+    function mudarHiddenCookies() {
+      document.getElementById("cookies").hidden = false;
+    }
   }
-  function ligarMudarHiddenCookies(){
-    let timeout2;
-    timeout2 = setTimeout(mudarHiddenCookies,2000);
-  }
-  function mudarHiddenCookies(){
-    document.getElementById('cookies').hidden=false;
-  }
-}
+}); 

@@ -1,25 +1,23 @@
-function mostrarPopUp()
-{
-  mostrarPop = true;
-  mostrarPop = localStorage.getItem("mostrarPop");
-  mostrarCookie = localStorage.getItem("mostrarCookie");
-  // console.log("cookie está: " + mostrarCookie);
-  // console.log("mostrarPop está: " + mostrarPop);
-  // mostrarPop = true = nao aparecer
-  if (mostrarPop && mostrarCookie)
-  {
-  }else
-  {
-    
-    ligarPressionarBotao();
-    
-   }
-}
+$( document ).ready(function() {
+  function mostrarPopUp() {
+    mostrarPop = true;
+    mostrarPop = localStorage.getItem("mostrarPop");
+    mostrarCookie = localStorage.getItem("mostrarCookie");
+    // console.log("cookie está: " + mostrarCookie);
+    // console.log("mostrarPop está: " + mostrarPop);
+    // mostrarPop = true = nao aparecer
+    if (mostrarPop && mostrarCookie) {
+    } else {
+      ligarPressionarBotao();
+    }
+  }
+}); 
+
 function ligarPressionarBotao(){
   let timeout;
-  timeout = setTimeout(pressionarBotao,2000);
-  
+  timeout = setTimeout(pressionarBotao,2000); 
 }
+
 function pressionarBotao(){
   mostrarPop = true;
   var botao = document.getElementById('botaoPop');
@@ -37,7 +35,6 @@ function aceitarPopup(respostaPopUp)
   if (mostrarCookie)
   {
     localStorage.setItem("mostrarPop",true);
-
     // mostrarAgebox();
   }
   return mostrarPop;
