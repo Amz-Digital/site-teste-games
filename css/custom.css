@@ -997,3 +997,7 @@ th {
   background-color: #f1f1f183;
   color: #8B8B8B;
 }
+#games{
+  max-width: 1400px;
+  font-family: 'Jost' !important;
+}
