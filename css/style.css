@@ -2926,7 +2926,7 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 .portfolio-grid.gutter-large { margin: 0 10px;}
 .portfolio-grid.gutter-very-small, .blog-grid.gutter-very-small {margin:0 3px }
 .portfolio-grid.gutter-small, .blog-grid.gutter-small {margin:0 5px }
-.portfolio-grid.gutter-medium, .blog-grid.gutter-medium {margin:0 7px }
+.portfolio-grid.gutter-medium, .blog-grid.gutter-medium {margin:0 100px }
 
 /* portfolio 6 column */
 .portfolio-grid.work-6col li, .blog-grid.blog-6col li {width: 16.67%} 
