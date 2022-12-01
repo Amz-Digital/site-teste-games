@@ -989,12 +989,16 @@ th {
   background-color: #f1f1f100;
   color: #8B8B8B;
 }
+#age-btn-decline a:hover{
+  text-decoration: none;
+  color: rgb(82, 82, 82);
+}
 #age-btn-accept:hover {
   background-color: #8bdb00;
   color: white;
 }
 #age-btn-decline:hover{
-  background-color: #f1f1f183;
+  background-color: #9e9e9e83;
   color: #8B8B8B;
 }
 #games{
